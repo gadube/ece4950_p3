@@ -1,0 +1,1827 @@
+ motor_model_updated_sfun
+
+ Timestamp is 5fb46e6e (Tue Nov 17 19:44:30 2020)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000f220H .text$mn                CODE
+ 0001:0000f220 00000012H .text$mn$00             CODE
+ 0001:0000f232 00000081H .text$x                 CODE
+ 0002:00000000 000003f0H .idata$5                DATA
+ 0002:000003f0 00000010H .00cfg                  DATA
+ 0002:00000400 00000008H .CRT$XCA                DATA
+ 0002:00000408 00000008H .CRT$XCZ                DATA
+ 0002:00000410 00000008H .CRT$XIA                DATA
+ 0002:00000418 00000008H .CRT$XIZ                DATA
+ 0002:00000420 00000008H .CRT$XPA                DATA
+ 0002:00000428 00000008H .CRT$XPZ                DATA
+ 0002:00000430 00000008H .CRT$XTA                DATA
+ 0002:00000438 00000008H .CRT$XTZ                DATA
+ 0002:00000440 00000000H .gfids$y                DATA
+ 0002:00000440 00000230H .rdata                  DATA
+ 0002:00000670 00000218H .rdata$zzzdbg           DATA
+ 0002:00000888 00000008H .rtc$IAA                DATA
+ 0002:00000890 00000008H .rtc$IZZ                DATA
+ 0002:00000898 00000008H .rtc$TAA                DATA
+ 0002:000008a0 00000008H .rtc$TZZ                DATA
+ 0002:000008a8 000009c8H .xdata                  DATA
+ 0002:00001270 00000084H .edata                  DATA
+ 0002:000012f4 000000f0H .idata$2                DATA
+ 0002:000013e4 00000014H .idata$3                DATA
+ 0002:000013f8 000003f0H .idata$4                DATA
+ 0002:000017e8 00000ab6H .idata$6                DATA
+ 0003:00000000 00007950H .data                   DATA
+ 0003:00007950 00000fc0H .bss                    DATA
+ 0004:00000000 00000bf4H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __volatile_metadata        0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       motor_model_updated_initializer 0000000180001000 f   motor_model_updated_sfun.obj
+ 0001:00000010       motor_model_updated_terminator 0000000180001010 f   motor_model_updated_sfun.obj
+ 0001:00000020       load_motor_model_updated_optimization_info 0000000180001020 f   motor_model_updated_sfun.obj
+ 0001:000000d0       unload_motor_model_updated_optimization_info 00000001800010d0 f   motor_model_updated_sfun.obj
+ 0001:00000100       sf_motor_model_updated_method_dispatcher 0000000180001100 f   motor_model_updated_sfun.obj
+ 0001:00000170       sf_motor_model_updated_process_check_sum_call 0000000180001170 f   motor_model_updated_sfun.obj
+ 0001:00000680       sf_motor_model_updated_get_eml_resolved_functions_info 0000000180001680 f   motor_model_updated_sfun.obj
+ 0001:000008c0       sf_motor_model_updated_third_party_uses_info 00000001800018c0 f   motor_model_updated_sfun.obj
+ 0001:00000ac0       sf_motor_model_updated_jit_fallback_info 0000000180001ac0 f   motor_model_updated_sfun.obj
+ 0001:00000cc0       sf_motor_model_updated_get_post_codegen_info 0000000180001cc0 f   motor_model_updated_sfun.obj
+ 0001:00000ee0       sf_motor_model_updated_updateBuildInfo_args_info 0000000180001ee0 f   motor_model_updated_sfun.obj
+ 0001:000010e0       motor_model_updated_register_exported_symbols 00000001800020e0 f   motor_model_updated_sfun.obj
+ 0001:000010f0       sf_c5_motor_model_updated_get_eml_resolved_functions_info 00000001800020f0 f   c5_motor_model_updated.obj
+ 0001:00001250       sf_c5_motor_model_updated_get_check_sum 0000000180002250 f   c5_motor_model_updated.obj
+ 0001:00001320       c5_motor_model_updated_method_dispatcher 0000000180002320 f   c5_motor_model_updated.obj
+ 0001:00001f90       sf_c5_motor_model_updated_third_party_uses_info 0000000180002f90 f   c5_motor_model_updated.obj
+ 0001:00002010       sf_c5_motor_model_updated_jit_fallback_info 0000000180003010 f   c5_motor_model_updated.obj
+ 0001:000021a0       sf_c5_motor_model_updated_updateBuildInfo_args_info 00000001800031a0 f   c5_motor_model_updated.obj
+ 0001:00002540       sf_c5_motor_model_updated_get_post_codegen_info 0000000180003540 f   c5_motor_model_updated.obj
+ 0001:00002a10       sf_c6_motor_model_updated_get_eml_resolved_functions_info 0000000180003a10 f   c6_motor_model_updated.obj
+ 0001:00002b70       sf_c6_motor_model_updated_get_check_sum 0000000180003b70 f   c6_motor_model_updated.obj
+ 0001:00002c40       c6_motor_model_updated_method_dispatcher 0000000180003c40 f   c6_motor_model_updated.obj
+ 0001:000038b0       sf_c6_motor_model_updated_third_party_uses_info 00000001800048b0 f   c6_motor_model_updated.obj
+ 0001:00003930       sf_c6_motor_model_updated_jit_fallback_info 0000000180004930 f   c6_motor_model_updated.obj
+ 0001:00003ac0       sf_c6_motor_model_updated_updateBuildInfo_args_info 0000000180004ac0 f   c6_motor_model_updated.obj
+ 0001:00003e60       sf_c6_motor_model_updated_get_post_codegen_info 0000000180004e60 f   c6_motor_model_updated.obj
+ 0001:00004330       mexFunction                0000000180005330 f   motor_model_updated_sfun_registry.obj
+ 0001:00006ae0       _ssSetInputPortDirectFeedThroughFcn 0000000180007ae0 f   motor_model_updated_sfun_registry.obj
+ 0001:00006c50       _ssSetRWorkValueFcn        0000000180007c50 f   motor_model_updated_sfun_registry.obj
+ 0001:00006cd0       _ssGetRWorkValueFcn        0000000180007cd0 f   motor_model_updated_sfun_registry.obj
+ 0001:00006d40       _ssSetIWorkValueFcn        0000000180007d40 f   motor_model_updated_sfun_registry.obj
+ 0001:00006dc0       _ssGetIWorkValueFcn        0000000180007dc0 f   motor_model_updated_sfun_registry.obj
+ 0001:00006e30       _ssSetPWorkValueFcn        0000000180007e30 f   motor_model_updated_sfun_registry.obj
+ 0001:00006eb0       _ssGetPWorkValueFcn        0000000180007eb0 f   motor_model_updated_sfun_registry.obj
+ 0001:00006f20       _ssGetInputPortSignalFcn   0000000180007f20 f   motor_model_updated_sfun_registry.obj
+ 0001:000072b0       _ssGetInputPortBufferDstPortFcn 00000001800082b0 f   motor_model_updated_sfun_registry.obj
+ 0001:00007330       _ssGetInputPortSignalPtrsFcn 0000000180008330 f   motor_model_updated_sfun_registry.obj
+ 0001:000076c0       ssGetParameterTuningCompliance 00000001800086c0 f   motor_model_updated_sfun_registry.obj
+ 0001:00007730       ssGetDTypeIdFromMxArray    0000000180008730 f   motor_model_updated_sfun_registry.obj
+ 0001:00007850       ssWriteRTWMx2dMatParam     0000000180008850 f   motor_model_updated_sfun_registry.obj
+ 0001:000078e0       ssWriteRTWMxVectParam      00000001800088e0 f   motor_model_updated_sfun_registry.obj
+ 0001:00007960       ssWriteRTWParameters       0000000180008960 f   motor_model_updated_sfun_registry.obj
+ 0001:00007f20       ssWriteRTWParamSettings    0000000180008f20 f   motor_model_updated_sfun_registry.obj
+ 0001:00008610       ssWriteRTWStr              0000000180009610 f   motor_model_updated_sfun_registry.obj
+ 0001:00008670       ssWriteRTWWorkVect         0000000180009670 f   motor_model_updated_sfun_registry.obj
+ 0001:00008bd0       ssWarning                  0000000180009bd0 f   motor_model_updated_sfun_registry.obj
+ 0001:00008cc0       ssWriteRTWNameValuePair    0000000180009cc0 f   motor_model_updated_sfun_registry.obj
+ 0001:000091c0       _ssSetInputPortMatrixDimensions 000000018000a1c0 f   motor_model_updated_sfun_registry.obj
+ 0001:000092e0       _ssSetOutputPortMatrixDimensions 000000018000a2e0 f   motor_model_updated_sfun_registry.obj
+ 0001:00009400       _ssSetInputPortVectorDimension 000000018000a400 f   motor_model_updated_sfun_registry.obj
+ 0001:000094b0       _ssSetOutputPortVectorDimension 000000018000a4b0 f   motor_model_updated_sfun_registry.obj
+ 0001:00009560       ssIsRunTimeParamTunable    000000018000a560 f   motor_model_updated_sfun_registry.obj
+ 0001:000095d0       ssGetSFuncBlockHandle      000000018000a5d0 f   motor_model_updated_sfun_registry.obj
+ 0001:00009640       _ssGetCurrentInputPortWidth 000000018000a640 f   motor_model_updated_sfun_registry.obj
+ 0001:00009760       _ssGetCurrentOutputPortWidth 000000018000a760 f   motor_model_updated_sfun_registry.obj
+ 0001:00009880       _ssGetCallSystemNumFcnCallDestinations 000000018000a880 f   motor_model_updated_sfun_registry.obj
+ 0001:000098f0       ssGetIsZeroCrossControlDisabled 000000018000a8f0 f   motor_model_updated_sfun_registry.obj
+ 0001:00009960       ssSetIsInputPortUsedForContZcSignal 000000018000a960 f   motor_model_updated_sfun_registry.obj
+ 0001:000099d0       ssSetZcSignalIsZcElementDisc 000000018000a9d0 f   motor_model_updated_sfun_registry.obj
+ 0001:00009a80       ssSetZcSignalName          000000018000aa80 f   motor_model_updated_sfun_registry.obj
+ 0001:00009af0       ssSetZcSignalWidth         000000018000aaf0 f   motor_model_updated_sfun_registry.obj
+ 0001:00009b60       ssSetZcSignalZcEventType   000000018000ab60 f   motor_model_updated_sfun_registry.obj
+ 0001:00009bd0       ssSetZcSignalType          000000018000abd0 f   motor_model_updated_sfun_registry.obj
+ 0001:00009c40       ssSetZcSignalZcTol         000000018000ac40 f   motor_model_updated_sfun_registry.obj
+ 0001:00009cb0       ssSetZcSignalNeedsEventNotification 000000018000acb0 f   motor_model_updated_sfun_registry.obj
+ 0001:00009d20       ssCreateAndAddZcSignalInfo 000000018000ad20 f   motor_model_updated_sfun_registry.obj
+ 0001:00009d90       ssCloneAndAddZcSignalInfo  000000018000ad90 f   motor_model_updated_sfun_registry.obj
+ 0001:00009e00       ssGetNumZcSignals          000000018000ae00 f   motor_model_updated_sfun_registry.obj
+ 0001:00009e70       ssGetZcSignalVector        000000018000ae70 f   motor_model_updated_sfun_registry.obj
+ 0001:00009ee0       ssGetZcSignalName          000000018000aee0 f   motor_model_updated_sfun_registry.obj
+ 0001:00009f50       ssGetZcSignalWidth         000000018000af50 f   motor_model_updated_sfun_registry.obj
+ 0001:00009fc0       ssGetZcSignalZcEventType   000000018000afc0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a030       ssGetZcSignalZcEvents      000000018000b030 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a0a0       ssGetZcSignalType          000000018000b0a0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a110       ssGetZcSignalZcTol         000000018000b110 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a190       ssGetZcSignalNeedsEventNotification 000000018000b190 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a200       ssGetZcSignalIsZcElementDisc 000000018000b200 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a2a0       ssGetIsInputPortElementContinuous 000000018000b2a0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a340       _ssGetAbsTol               000000018000b340 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a3b0       _ssSetStateAbsTol          000000018000b3b0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a490       _ssSetInputPortReusableFcn 000000018000b490 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a590       _ssSetOutputPortReusableFcn 000000018000b590 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a690       _ssSetSymbolicDimsSupport  000000018000b690 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a700       _ssRegisterSymbolicDimsExpr 000000018000b700 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a780       _ssRegisterSymbolicDims    000000018000b780 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a820       _ssRegisterSymbolicDimsString 000000018000b820 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a8a0       _ssRegisterSymbolicDimsIntValue 000000018000b8a0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a910       _ssRegisterSymbolicDimsPlus 000000018000b910 f   motor_model_updated_sfun_registry.obj
+ 0001:0000a990       _ssRegisterSymbolicDimsMinus 000000018000b990 f   motor_model_updated_sfun_registry.obj
+ 0001:0000aa10       _ssRegisterSymbolicDimsMultiply 000000018000ba10 f   motor_model_updated_sfun_registry.obj
+ 0001:0000aa90       _ssRegisterSymbolicDimsDivide 000000018000ba90 f   motor_model_updated_sfun_registry.obj
+ 0001:0000ab10       _ssGetNumSymbolicDims      000000018000bb10 f   motor_model_updated_sfun_registry.obj
+ 0001:0000ab80       _ssGetSymbolicDim          000000018000bb80 f   motor_model_updated_sfun_registry.obj
+ 0001:0000ac00       _ssSetInputPortSymbolicDimsId 000000018000bc00 f   motor_model_updated_sfun_registry.obj
+ 0001:0000ac70       _ssGetCompInputPortSymbolicDimsId 000000018000bc70 f   motor_model_updated_sfun_registry.obj
+ 0001:0000ace0       _ssSetCompInputPortSymbolicDimsId 000000018000bce0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000ad50       _ssSetOutputPortSymbolicDimsId 000000018000bd50 f   motor_model_updated_sfun_registry.obj
+ 0001:0000adc0       _ssGetCompOutputPortSymbolicDimsId 000000018000bdc0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000ae30       _ssSetCompOutputPortSymbolicDimsId 000000018000be30 f   motor_model_updated_sfun_registry.obj
+ 0001:0000aea0       _ssSetCompDWorkSymbolicDimsId 000000018000bea0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000af10       sf_process_check_sum_call  000000018000bf10 f   motor_model_updated_sfun_registry.obj
+ 0001:0000af60       sf_process_get_third_party_uses_info_call 000000018000bf60 f   motor_model_updated_sfun_registry.obj
+ 0001:0000b190       sf_process_get_jit_fallback_info_call 000000018000c190 f   motor_model_updated_sfun_registry.obj
+ 0001:0000b3c0       sf_process_get_post_codegen_info_call 000000018000c3c0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000b5f0       sf_process_get_updateBuildInfo_args_info_call 000000018000c5f0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000b820       sf_process_get_eml_resolved_functions_info_call 000000018000c820 f   motor_model_updated_sfun_registry.obj
+ 0001:0000ba50       sf_mex_unlock_call         000000018000ca50 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bc70       sf_machine_global_initializer_called 000000018000cc70 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bca0       sf_machine_global_method_dispatcher 000000018000cca0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bd00       sf_machine_global_terminator 000000018000cd00 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bd30       sf_register_machine_exported_symbols 000000018000cd30 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bd50       callCustomFcn              000000018000cd50 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bd60       sf_machine_global_initializer 000000018000cd60 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bdd0       mdlGetSimState             000000018000cdd0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000be10       mdlSetSimState             000000018000ce10 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c760       ProcessMexSfunctionEveryCall 000000018000d760 f   motor_model_updated_sfun_registry.obj
+ 0001:0000d8d0       __local_stdio_printf_options 000000018000e8d0 f i motor_model_updated_sfun_registry.obj
+ 0001:0000d8e0       _vsnprintf_l               000000018000e8e0 f i motor_model_updated_sfun_registry.obj
+ 0001:0000d960       _vsprintf_l                000000018000e960 f i motor_model_updated_sfun_registry.obj
+ 0001:0000d9b0       sprintf                    000000018000e9b0 f i motor_model_updated_sfun_registry.obj
+ 0001:0000da00       mexfilerequiredapiversion  000000018000ea00 f   c_mexapi_version.obj
+ 0001:0000da30       MW_AnalogInSingle_Open     000000018000ea30 f   MW_AnalogInput.obj
+ 0001:0000da40       MW_AnalogIn_SetTriggerSource 000000018000ea40 f   MW_AnalogInput.obj
+ 0001:0000da60       MW_AnalogIn_EnableNotification 000000018000ea60 f   MW_AnalogInput.obj
+ 0001:0000da70       MW_AnalogIn_DisableNotification 000000018000ea70 f   MW_AnalogInput.obj
+ 0001:0000da80       MW_AnalogIn_EnableContConversion 000000018000ea80 f   MW_AnalogInput.obj
+ 0001:0000da90       MW_AnalogIn_SetChannelConvRank 000000018000ea90 f   MW_AnalogInput.obj
+ 0001:0000dab0       MW_AnalogIn_GetStatus      000000018000eab0 f   MW_AnalogInput.obj
+ 0001:0000dad0       MW_AnalogInSingle_ReadResult 000000018000ead0 f   MW_AnalogInput.obj
+ 0001:0000daf0       MW_AnalogIn_Start          000000018000eaf0 f   MW_AnalogInput.obj
+ 0001:0000db00       MW_AnalogIn_Stop           000000018000eb00 f   MW_AnalogInput.obj
+ 0001:0000db10       MW_AnalogIn_Close          000000018000eb10 f   MW_AnalogInput.obj
+ 0001:0000db20       MW_AnalogIn_GetHandle      000000018000eb20 f   MW_AnalogInput.obj
+ 0001:0000db30       setHandle                  000000018000eb30 f   MW_AnalogInput.obj
+ 0001:0000db40       digitalIOSetup             000000018000eb40 f   MW_arduino_digitalio.obj
+ 0001:0000db50       writeDigitalPin            000000018000eb50 f   MW_arduino_digitalio.obj
+ 0001:0000db60       readDigitalPin             000000018000eb60 f   MW_arduino_digitalio.obj
+ 0001:0000db70       MW_PWM_Open                000000018000eb70 f   MW_PWM.obj
+ 0001:0000db90       MW_PWM_Start               000000018000eb90 f   MW_PWM.obj
+ 0001:0000dba0       MW_PWM_SetDutyCycle        000000018000eba0 f   MW_PWM.obj
+ 0001:0000dbc0       MW_PWM_SetFrequency        000000018000ebc0 f   MW_PWM.obj
+ 0001:0000dbe0       MW_PWM_DisableNotification 000000018000ebe0 f   MW_PWM.obj
+ 0001:0000dbf0       MW_PWM_EnableNotification  000000018000ebf0 f   MW_PWM.obj
+ 0001:0000dc00       MW_PWM_SetOutputToIdle     000000018000ec00 f   MW_PWM.obj
+ 0001:0000dc10       MW_PWM_GetOutputState      000000018000ec10 f   MW_PWM.obj
+ 0001:0000dc20       MW_PWM_Stop                000000018000ec20 f   MW_PWM.obj
+ 0001:0000dc30       MW_PWM_Close               000000018000ec30 f   MW_PWM.obj
+ 0001:0000dc40       MW_PWM_GetHandle           000000018000ec40 f   MW_PWM.obj
+ 0001:0000dc50       setPWMHandle               000000018000ec50 f   MW_PWM.obj
+ 0001:0000dc5a       sf_load_rtw_optimization_info 000000018000ec5a f   sf_runtime:sf_runtime.dll
+ 0001:0000dc60       sf_mex_decode              000000018000ec60 f   sf_runtime:sf_runtime.dll
+ 0001:0000dc66       sf_init_ChartRunTimeInfo   000000018000ec66 f   sf_runtime:sf_runtime.dll
+ 0001:0000dc6c       sf_free_ChartRunTimeInfo   000000018000ec6c f   sf_runtime:sf_runtime.dll
+ 0001:0000dc72       sfrtGetEmlrtCtx            000000018000ec72 f   sf_runtime:sf_runtime.dll
+ 0001:0000dc78       sfrtGetCovrtInstance       000000018000ec78 f   sf_runtime:sf_runtime.dll
+ 0001:0000dc7e       sf_get_chart_instance_ptr  000000018000ec7e f   sf_runtime:sf_runtime.dll
+ 0001:0000dc84       sim_mode_is_rtw_gen        000000018000ec84 f   sf_runtime:sf_runtime.dll
+ 0001:0000dc8a       sim_mode_is_external       000000018000ec8a f   sf_runtime:sf_runtime.dll
+ 0001:0000dc90       sf_clear_rtw_identifier    000000018000ec90 f   sf_runtime:sf_runtime.dll
+ 0001:0000dc96       sf_get_time                000000018000ec96 f   sf_runtime:sf_runtime.dll
+ 0001:0000dc9c       sfDoAnimationWrapper       000000018000ec9c f   sf_runtime:sf_runtime.dll
+ 0001:0000dca2       setDataBrowseFcn           000000018000eca2 f   sf_runtime:sf_runtime.dll
+ 0001:0000dca8       setLegacyDebuggerFlag      000000018000eca8 f   sf_runtime:sf_runtime.dll
+ 0001:0000dcae       setDebuggerFlag            000000018000ecae f   sf_runtime:sf_runtime.dll
+ 0001:0000dcb4       sf_warn_if_symbolic_dimension_param_changed 000000018000ecb4 f   sf_runtime:sf_runtime.dll
+ 0001:0000dcba       sf_set_work_widths         000000018000ecba f   sf_runtime:sf_runtime.dll
+ 0001:0000dcc0       sfListenerCacheSimStruct   000000018000ecc0 f   sf_runtime:sf_runtime.dll
+ 0001:0000dcc6       sfListenerLightTerminate   000000018000ecc6 f   sf_runtime:sf_runtime.dll
+ 0001:0000dccc       sfListenerInitializeRuntimeVars 000000018000eccc f   sf_runtime:sf_runtime.dll
+ 0001:0000dcd2       sf_mex_error_message       000000018000ecd2 f   sf_runtime:sf_runtime.dll
+ 0001:0000dcd8       sf_mex_create              000000018000ecd8 f   sf_runtime:sf_runtime.dll
+ 0001:0000dcde       sf_mex_createcellmatrix    000000018000ecde f   sf_runtime:sf_runtime.dll
+ 0001:0000dce4       sf_mex_setcell             000000018000ece4 f   sf_runtime:sf_runtime.dll
+ 0001:0000dcea       sf_mex_getcell             000000018000ecea f   sf_runtime:sf_runtime.dll
+ 0001:0000dcf0       sf_mex_assign              000000018000ecf0 f   sf_runtime:sf_runtime.dll
+ 0001:0000dcf6       sf_mex_dup                 000000018000ecf6 f   sf_runtime:sf_runtime.dll
+ 0001:0000dcfc       sf_mex_destroy             000000018000ecfc f   sf_runtime:sf_runtime.dll
+ 0001:0000dd02       sf_mex_import              000000018000ed02 f   sf_runtime:sf_runtime.dll
+ 0001:0000dd08       ssGetOutputPortSignal_wrapper 000000018000ed08 f   sf_runtime:sf_runtime.dll
+ 0001:0000dd0e       sf_get_ChartInfoStruct_CodeGen 000000018000ed0e f   sf_runtime:sf_runtime.dll
+ 0001:0000dd14       sf_get_hasSeparateUpdateOutputs 000000018000ed14 f   sf_runtime:sf_runtime.dll
+ 0001:0000dd1a       callMdlMethodAndReportError 000000018000ed1a f   sf_runtime:sf_runtime.dll
+ 0001:0000dd20       call_sf_machine_global_method_dispatcher 000000018000ed20 f   sf_runtime:sf_runtime.dll
+ 0001:0000dd26       getRuntimeInstanceInfoAsVoid 000000018000ed26 f   sf_runtime:sf_runtime.dll
+ 0001:0000dd2c       sf_mex_error_direct_call   000000018000ed2c f   sf_runtime:sf_runtime.dll
+ 0001:0000dd32       sf_clear_error_manager_info 000000018000ed32 f   sf_runtime:sf_runtime.dll
+ 0001:0000dd38       mxIsChar_800               000000018000ed38 f   libmx:libmx.dll
+ 0001:0000dd3e       mxGetScalar_800            000000018000ed3e f   libmx:libmx.dll
+ 0001:0000dd44       mxGetPr_800                000000018000ed44 f   libmx:libmx.dll
+ 0001:0000dd4a       mxDestroyArray_800         000000018000ed4a f   libmx:libmx.dll
+ 0001:0000dd50       mxCreateDoubleMatrix_800   000000018000ed50 f   libmx:libmx.dll
+ 0001:0000dd56       mxGetString_800            000000018000ed56 f   libmx:libmx.dll
+ 0001:0000dd5c       mxDuplicateArray_800       000000018000ed5c f   libmx:libmx.dll
+ 0001:0000dd62       mxSetCell_800              000000018000ed62 f   libmx:libmx.dll
+ 0001:0000dd68       mxSetField_800             000000018000ed68 f   libmx:libmx.dll
+ 0001:0000dd6e       mxCreateString_800         000000018000ed6e f   libmx:libmx.dll
+ 0001:0000dd74       mxCreateCellMatrix_800     000000018000ed74 f   libmx:libmx.dll
+ 0001:0000dd7a       mxCreateStructMatrix_800   000000018000ed7a f   libmx:libmx.dll
+ 0001:0000dd80       mxCalloc_800               000000018000ed80 f   libmx:libmx.dll
+ 0001:0000dd86       mxGetM_800                 000000018000ed86 f   libmx:libmx.dll
+ 0001:0000dd8c       mxGetClassID_800           000000018000ed8c f   libmx:libmx.dll
+ 0001:0000dd92       mxIsNumeric_800            000000018000ed92 f   libmx:libmx.dll
+ 0001:0000dd98       mxIsComplex_800            000000018000ed98 f   libmx:libmx.dll
+ 0001:0000dd9e       mxGetN_800                 000000018000ed9e f   libmx:libmx.dll
+ 0001:0000dda4       mxCreateDoubleScalar_800   000000018000eda4 f   libmx:libmx.dll
+ 0001:0000ddaa       mexMakeArrayPersistent_800 000000018000edaa f   libmex:libmex.dll
+ 0001:0000ddb0       mexErrMsgTxt_800           000000018000edb0 f   libmex:libmex.dll
+ 0001:0000ddb6       mexWarnMsgTxt_800          000000018000edb6 f   libmex:libmex.dll
+ 0001:0000ddbc       mexCallMATLAB_800          000000018000edbc f   libmex:libmex.dll
+ 0001:0000ddc2       mexLock_800                000000018000edc2 f   libmex:libmex.dll
+ 0001:0000ddc8       mexUnlock_800              000000018000edc8 f   libmex:libmex.dll
+ 0001:0000ddce       mexIsLocked_800            000000018000edce f   libmex:libmex.dll
+ 0001:0000ddd4       utMalloc                   000000018000edd4 f   libut:libut.dll
+ 0001:0000ddda       utFree                     000000018000edda f   libut:libut.dll
+ 0001:0000dde0       emlrtNameCaptureMxArrayR2016a 000000018000ede0 f   libemlrt:libemlrt.dll
+ 0001:0000dde6       covrtCreateStateflowInstanceData 000000018000ede6 f   libcovrt:libcovrt.dll
+ 0001:0000ddec       covrtDeleteStateflowInstanceData 000000018000edec f   libcovrt:libcovrt.dll
+ 0001:0000ddf2       covrtTransInitFcn          000000018000edf2 f   libcovrt:libcovrt.dll
+ 0001:0000ddf8       covrtStateInitFcn          000000018000edf8 f   libcovrt:libcovrt.dll
+ 0001:0000ddfe       covrtChartInitFcn          000000018000edfe f   libcovrt:libcovrt.dll
+ 0001:0000de04       covrtSigUpdateFcn          000000018000ee04 f   libcovrt:libcovrt.dll
+ 0001:0000de0a       covrtEmlInitFcn            000000018000ee0a f   libcovrt:libcovrt.dll
+ 0001:0000de10       covrtEmlFcnInitFcn         000000018000ee10 f   libcovrt:libcovrt.dll
+ 0001:0000de16       covrtEmlFcnEval            000000018000ee16 f   libcovrt:libcovrt.dll
+ 0001:0000de1c       __raise_securityfailure    000000018000ee1c f   MSVCRT:gs_report.obj
+ 0001:0000de50       __report_gsfailure         000000018000ee50 f   MSVCRT:gs_report.obj
+ 0001:0000df24       __report_rangecheckfailure 000000018000ef24 f   MSVCRT:gs_report.obj
+ 0001:0000df38       __report_securityfailure   000000018000ef38 f   MSVCRT:gs_report.obj
+ 0001:0000dfd4       __report_securityfailureEx 000000018000efd4 f   MSVCRT:gs_report.obj
+ 0001:0000e1c8       __GSHandlerCheck           000000018000f1c8 f   MSVCRT:gshandler.obj
+ 0001:0000e1e8       __GSHandlerCheckCommon     000000018000f1e8 f   MSVCRT:gshandler.obj
+ 0001:0000e260       __security_check_cookie    000000018000f260 f   MSVCRT:amdsecgs.obj
+ 0001:0000e5d0       _CRT_INIT                  000000018000f5d0 f   MSVCRT:dll_dllmain.obj
+ 0001:0000e5d8       _DllMainCRTStartup         000000018000f5d8 f   MSVCRT:dll_dllmain.obj
+ 0001:0000e684       __security_init_cookie     000000018000f684 f   MSVCRT:gs_support.obj
+ 0001:0000e730       DllMain                    000000018000f730 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:0000e754       ?__scrt_initialize_type_info@@YAXXZ 000000018000f754 f   MSVCRT:tncleanup.obj
+ 0001:0000e764       ?__scrt_uninitialize_type_info@@YAXXZ 000000018000f764 f   MSVCRT:tncleanup.obj
+ 0001:0000e770       __local_stdio_scanf_options 000000018000f770 f i MSVCRT:default_local_stdio_options.obj
+ 0001:0000e778       __scrt_initialize_default_local_stdio_options 000000018000f778 f   MSVCRT:default_local_stdio_options.obj
+ 0001:0000e794       ??$__crt_fast_decode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 000000018000f794 f i MSVCRT:utility.obj
+ 0001:0000e7ac       ??$__crt_fast_encode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 000000018000f7ac f i MSVCRT:utility.obj
+ 0001:0000e7cc       ?__crt_rotate_pointer_value@@YA_K_KH@Z 000000018000f7cc f i MSVCRT:utility.obj
+ 0001:0000e7d8       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000018000f7d8 f i MSVCRT:utility.obj
+ 0001:0000e838       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 000000018000f838 f i MSVCRT:utility.obj
+ 0001:0000e870       NtCurrentTeb               000000018000f870 f i MSVCRT:utility.obj
+ 0001:0000e87c       __scrt_acquire_startup_lock 000000018000f87c f   MSVCRT:utility.obj
+ 0001:0000e8b8       __scrt_dllmain_after_initialize_c 000000018000f8b8 f   MSVCRT:utility.obj
+ 0001:0000e8ec       __scrt_dllmain_before_initialize_c 000000018000f8ec f   MSVCRT:utility.obj
+ 0001:0000e904       __scrt_dllmain_crt_thread_attach 000000018000f904 f   MSVCRT:utility.obj
+ 0001:0000e92c       __scrt_dllmain_crt_thread_detach 000000018000f92c f   MSVCRT:utility.obj
+ 0001:0000e944       __scrt_dllmain_exception_filter 000000018000f944 f   MSVCRT:utility.obj
+ 0001:0000e9a4       __scrt_dllmain_uninitialize_c 000000018000f9a4 f   MSVCRT:utility.obj
+ 0001:0000e9d4       __scrt_dllmain_uninitialize_critical 000000018000f9d4 f   MSVCRT:utility.obj
+ 0001:0000e9e8       __scrt_initialize_crt      000000018000f9e8 f   MSVCRT:utility.obj
+ 0001:0000ea34       __scrt_initialize_onexit_tables 000000018000fa34 f   MSVCRT:utility.obj
+ 0001:0000eb0c       __scrt_is_nonwritable_in_current_image 000000018000fb0c f   MSVCRT:utility.obj
+ 0001:0000eba8       __scrt_release_startup_lock 000000018000fba8 f   MSVCRT:utility.obj
+ 0001:0000ebcc       __scrt_uninitialize_crt    000000018000fbcc f   MSVCRT:utility.obj
+ 0001:0000ebf8       _onexit                    000000018000fbf8 f   MSVCRT:utility.obj
+ 0001:0000ec48       at_quick_exit              000000018000fc48 f   MSVCRT:utility.obj
+ 0001:0000ec80       atexit                     000000018000fc80 f   MSVCRT:utility.obj
+ 0001:0000ec98       __scrt_get_dyn_tls_init_callback 000000018000fc98 f   MSVCRT:dyn_tls_init.obj
+ 0001:0000eca0       __crt_debugger_hook        000000018000fca0 f   MSVCRT:utility_desktop.obj
+ 0001:0000eca8       __scrt_fastfail            000000018000fca8 f   MSVCRT:utility_desktop.obj
+ 0001:0000edf4       __scrt_get_show_window_mode 000000018000fdf4 f   MSVCRT:utility_desktop.obj
+ 0001:0000ee30       __scrt_initialize_mta      000000018000fe30 f   MSVCRT:utility_desktop.obj
+ 0001:0000ee38       __scrt_initialize_winrt    000000018000fe38 f   MSVCRT:utility_desktop.obj
+ 0001:0000ee3c       __scrt_is_managed_app      000000018000fe3c f   MSVCRT:utility_desktop.obj
+ 0001:0000ee90       __scrt_set_unhandled_exception_filter 000000018000fe90 f   MSVCRT:utility_desktop.obj
+ 0001:0000eea0       __scrt_exe_initialize_mta  000000018000fea0 f   MSVCRT:utility_desktop.obj
+ 0001:0000eea0       __scrt_stub_for_initialize_mta 000000018000fea0 f   MSVCRT:utility_desktop.obj
+ 0001:0000eea4       __scrt_unhandled_exception_filter 000000018000fea4 f   MSVCRT:utility_desktop.obj
+ 0001:0000eedc       _RTC_Initialize            000000018000fedc f   MSVCRT:initsect.obj
+ 0001:0000ef18       _RTC_Terminate             000000018000ff18 f   MSVCRT:initsect.obj
+ 0001:0000ef54       _guard_check_icall_nop     000000018000ff54 f i MSVCRT:guard_support.obj
+ 0001:0000ef58       ReadNoFence64              000000018000ff58 f i MSVCRT:guard_support.obj
+ 0001:0000ef5c       ReadPointerNoFence         000000018000ff5c f i MSVCRT:guard_support.obj
+ 0001:0000ef60       _guard_icall_checks_enforced 000000018000ff60 f i MSVCRT:guard_support.obj
+ 0001:0000ef78       _guard_rf_checks_enforced  000000018000ff78 f i MSVCRT:guard_support.obj
+ 0001:0000ef7c       __isa_available_init       000000018000ff7c f   MSVCRT:cpu_disp.obj
+ 0001:0000f0f8       _get_startup_argv_mode     00000001800100f8 f   MSVCRT:argv_mode.obj
+ 0001:0000f100       __scrt_is_ucrt_dll_in_use  0000000180010100 f   MSVCRT:ucrt_detection.obj
+ 0001:0000f110       RtlCaptureContext          0000000180010110 f   kernel32:KERNEL32.dll
+ 0001:0000f116       RtlLookupFunctionEntry     0000000180010116 f   kernel32:KERNEL32.dll
+ 0001:0000f11c       RtlVirtualUnwind           000000018001011c f   kernel32:KERNEL32.dll
+ 0001:0000f122       UnhandledExceptionFilter   0000000180010122 f   kernel32:KERNEL32.dll
+ 0001:0000f128       SetUnhandledExceptionFilter 0000000180010128 f   kernel32:KERNEL32.dll
+ 0001:0000f12e       GetCurrentProcess          000000018001012e f   kernel32:KERNEL32.dll
+ 0001:0000f134       TerminateProcess           0000000180010134 f   kernel32:KERNEL32.dll
+ 0001:0000f13a       IsProcessorFeaturePresent  000000018001013a f   kernel32:KERNEL32.dll
+ 0001:0000f140       QueryPerformanceCounter    0000000180010140 f   kernel32:KERNEL32.dll
+ 0001:0000f146       GetCurrentProcessId        0000000180010146 f   kernel32:KERNEL32.dll
+ 0001:0000f14c       GetCurrentThreadId         000000018001014c f   kernel32:KERNEL32.dll
+ 0001:0000f152       GetSystemTimeAsFileTime    0000000180010152 f   kernel32:KERNEL32.dll
+ 0001:0000f158       DisableThreadLibraryCalls  0000000180010158 f   kernel32:KERNEL32.dll
+ 0001:0000f15e       InitializeSListHead        000000018001015e f   kernel32:KERNEL32.dll
+ 0001:0000f164       IsDebuggerPresent          0000000180010164 f   kernel32:KERNEL32.dll
+ 0001:0000f16a       GetStartupInfoW            000000018001016a f   kernel32:KERNEL32.dll
+ 0001:0000f170       GetModuleHandleW           0000000180010170 f   kernel32:KERNEL32.dll
+ 0001:0000f176       memset                     0000000180010176 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000f17c       memcpy                     000000018001017c f   vcruntime:VCRUNTIME140.dll
+ 0001:0000f182       __C_specific_handler       0000000180010182 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000f188       __std_type_info_destroy_list 0000000180010188 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000f18e       strcmp                     000000018001018e f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000f194       strcat                     0000000180010194 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000f19a       __stdio_common_vsprintf    000000018001019a f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0000f1a0       free                       00000001800101a0 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000f1a6       malloc                     00000001800101a6 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000f1ac       strlen                     00000001800101ac f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000f1b2       _initterm                  00000001800101b2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1b8       _initterm_e                00000001800101b8 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1be       _seh_filter_dll            00000001800101be f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1c4       _configure_narrow_argv     00000001800101c4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1ca       _initialize_narrow_environment 00000001800101ca f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1d0       _initialize_onexit_table   00000001800101d0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1d6       _register_onexit_function  00000001800101d6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1dc       _execute_onexit_table      00000001800101dc f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1e2       _crt_atexit                00000001800101e2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1e8       _crt_at_quick_exit         00000001800101e8 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1ee       _cexit                     00000001800101ee f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1f4       terminate                  00000001800101f4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000f1fc       __scrt_stub_for_acrt_initialize 00000001800101fc f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f1fc       __vcrt_initialize          00000001800101fc f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f1fc       __acrt_initialize          00000001800101fc f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f200       __vcrt_thread_attach       0000000180010200 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f200       __acrt_thread_attach       0000000180010200 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f200       __scrt_stub_for_acrt_thread_attach 0000000180010200 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f204       __scrt_stub_for_acrt_thread_detach 0000000180010204 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f204       __vcrt_thread_detach       0000000180010204 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f204       __acrt_thread_detach       0000000180010204 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f208       __vcrt_uninitialize        0000000180010208 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f208       __scrt_stub_for_acrt_uninitialize 0000000180010208 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f208       __acrt_uninitialize        0000000180010208 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f20c       __acrt_uninitialize_critical 000000018001020c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f20c       __scrt_stub_for_acrt_uninitialize_critical 000000018001020c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f20c       __vcrt_uninitialize_critical 000000018001020c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f210       _is_c_termination_complete 0000000180010210 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f210       __scrt_stub_for_is_c_termination_complete 0000000180010210 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000f230       _guard_dispatch_icall_nop  0000000180010230 f   MSVCRT:guard_dispatch.obj
+ 0002:00000000       __imp_GetModuleHandleW     0000000180011000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_IsProcessorFeaturePresent 0000000180011008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_RtlCaptureContext    0000000180011010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_RtlLookupFunctionEntry 0000000180011018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_QueryPerformanceCounter 0000000180011020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_GetCurrentProcessId  0000000180011028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_GetCurrentThreadId   0000000180011030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_GetSystemTimeAsFileTime 0000000180011038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_DisableThreadLibraryCalls 0000000180011040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_InitializeSListHead  0000000180011048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_IsDebuggerPresent    0000000180011050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_GetStartupInfoW      0000000180011058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_GetCurrentProcess    0000000180011060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_SetUnhandledExceptionFilter 0000000180011068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_UnhandledExceptionFilter 0000000180011070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_RtlVirtualUnwind     0000000180011078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_TerminateProcess     0000000180011080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 0000000180011088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp_memcpy               0000000180011090     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp___std_type_info_destroy_list 0000000180011098     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       __imp_memset               00000001800110a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a8       __imp___C_specific_handler 00000001800110a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000b0       \177VCRUNTIME140_NULL_THUNK_DATA 00000001800110b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b8       __imp_malloc               00000001800110b8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c0       __imp_free                 00000001800110c0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c8       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001800110c8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d0       __imp__configure_narrow_argv 00000001800110d0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000d8       __imp__seh_filter_dll      00000001800110d8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e0       __imp__initterm_e          00000001800110e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e8       __imp__initialize_narrow_environment 00000001800110e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f0       __imp__initialize_onexit_table 00000001800110f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f8       __imp__register_onexit_function 00000001800110f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000100       __imp__execute_onexit_table 0000000180011100     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000108       __imp__crt_atexit          0000000180011108     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000110       __imp__crt_at_quick_exit   0000000180011110     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000118       __imp__cexit               0000000180011118     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000120       __imp_terminate            0000000180011120     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000128       __imp__initterm            0000000180011128     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000130       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0000000180011130     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000138       __imp___stdio_common_vsprintf 0000000180011138     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000140       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0000000180011140     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000148       __imp_strlen               0000000180011148     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000150       __imp_strcat               0000000180011150     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000158       __imp_strcmp               0000000180011158     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000160       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 0000000180011160     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000168       __imp_covrtCreateStateflowInstanceData 0000000180011168     libcovrt:libcovrt.dll
+ 0002:00000170       __imp_covrtEmlFcnEval      0000000180011170     libcovrt:libcovrt.dll
+ 0002:00000178       __imp_covrtEmlFcnInitFcn   0000000180011178     libcovrt:libcovrt.dll
+ 0002:00000180       __imp_covrtEmlInitFcn      0000000180011180     libcovrt:libcovrt.dll
+ 0002:00000188       __imp_covrtSigUpdateFcn    0000000180011188     libcovrt:libcovrt.dll
+ 0002:00000190       __imp_covrtChartInitFcn    0000000180011190     libcovrt:libcovrt.dll
+ 0002:00000198       __imp_covrtStateInitFcn    0000000180011198     libcovrt:libcovrt.dll
+ 0002:000001a0       __imp_covrtTransInitFcn    00000001800111a0     libcovrt:libcovrt.dll
+ 0002:000001a8       __imp_covrtDeleteStateflowInstanceData 00000001800111a8     libcovrt:libcovrt.dll
+ 0002:000001b0       \177libcovrt_NULL_THUNK_DATA 00000001800111b0     libcovrt:libcovrt.dll
+ 0002:000001b8       __imp_emlrtNameCaptureMxArrayR2016a 00000001800111b8     libemlrt:libemlrt.dll
+ 0002:000001c0       \177libemlrt_NULL_THUNK_DATA 00000001800111c0     libemlrt:libemlrt.dll
+ 0002:000001c8       __imp_mexIsLocked_800      00000001800111c8     libmex:libmex.dll
+ 0002:000001d0       __imp_mexMakeArrayPersistent_800 00000001800111d0     libmex:libmex.dll
+ 0002:000001d8       __imp_mexErrMsgTxt_800     00000001800111d8     libmex:libmex.dll
+ 0002:000001e0       __imp_mexWarnMsgTxt_800    00000001800111e0     libmex:libmex.dll
+ 0002:000001e8       __imp_mexCallMATLAB_800    00000001800111e8     libmex:libmex.dll
+ 0002:000001f0       __imp_mexLock_800          00000001800111f0     libmex:libmex.dll
+ 0002:000001f8       __imp_mexUnlock_800        00000001800111f8     libmex:libmex.dll
+ 0002:00000200       \177libmex_NULL_THUNK_DATA 0000000180011200     libmex:libmex.dll
+ 0002:00000208       __imp_mxCreateStructMatrix_800 0000000180011208     libmx:libmx.dll
+ 0002:00000210       __imp_mxGetScalar_800      0000000180011210     libmx:libmx.dll
+ 0002:00000218       __imp_mxGetPr_800          0000000180011218     libmx:libmx.dll
+ 0002:00000220       __imp_mxDestroyArray_800   0000000180011220     libmx:libmx.dll
+ 0002:00000228       __imp_mxCreateDoubleScalar_800 0000000180011228     libmx:libmx.dll
+ 0002:00000230       __imp_mxGetN_800           0000000180011230     libmx:libmx.dll
+ 0002:00000238       __imp_mxIsComplex_800      0000000180011238     libmx:libmx.dll
+ 0002:00000240       __imp_mxIsNumeric_800      0000000180011240     libmx:libmx.dll
+ 0002:00000248       __imp_mxGetClassID_800     0000000180011248     libmx:libmx.dll
+ 0002:00000250       __imp_mxGetM_800           0000000180011250     libmx:libmx.dll
+ 0002:00000258       __imp_mxCalloc_800         0000000180011258     libmx:libmx.dll
+ 0002:00000260       __imp_mxIsChar_800         0000000180011260     libmx:libmx.dll
+ 0002:00000268       __imp_mxCreateCellMatrix_800 0000000180011268     libmx:libmx.dll
+ 0002:00000270       __imp_mxCreateString_800   0000000180011270     libmx:libmx.dll
+ 0002:00000278       __imp_mxSetField_800       0000000180011278     libmx:libmx.dll
+ 0002:00000280       __imp_mxSetCell_800        0000000180011280     libmx:libmx.dll
+ 0002:00000288       __imp_mxDuplicateArray_800 0000000180011288     libmx:libmx.dll
+ 0002:00000290       __imp_mxGetString_800      0000000180011290     libmx:libmx.dll
+ 0002:00000298       __imp_mxCreateDoubleMatrix_800 0000000180011298     libmx:libmx.dll
+ 0002:000002a0       \177libmx_NULL_THUNK_DATA  00000001800112a0     libmx:libmx.dll
+ 0002:000002a8       __imp_utMalloc             00000001800112a8     libut:libut.dll
+ 0002:000002b0       __imp_utFree               00000001800112b0     libut:libut.dll
+ 0002:000002b8       \177libut_NULL_THUNK_DATA  00000001800112b8     libut:libut.dll
+ 0002:000002c0       __imp_sf_mex_decode        00000001800112c0     sf_runtime:sf_runtime.dll
+ 0002:000002c8       __imp_sf_clear_error_manager_info 00000001800112c8     sf_runtime:sf_runtime.dll
+ 0002:000002d0       __imp_sf_mex_error_direct_call 00000001800112d0     sf_runtime:sf_runtime.dll
+ 0002:000002d8       __imp_getRuntimeInstanceInfoAsVoid 00000001800112d8     sf_runtime:sf_runtime.dll
+ 0002:000002e0       __imp_call_sf_machine_global_method_dispatcher 00000001800112e0     sf_runtime:sf_runtime.dll
+ 0002:000002e8       __imp_callMdlMethodAndReportError 00000001800112e8     sf_runtime:sf_runtime.dll
+ 0002:000002f0       __imp_sf_get_hasSeparateUpdateOutputs 00000001800112f0     sf_runtime:sf_runtime.dll
+ 0002:000002f8       __imp_sf_get_ChartInfoStruct_CodeGen 00000001800112f8     sf_runtime:sf_runtime.dll
+ 0002:00000300       __imp_ssGetOutputPortSignal_wrapper 0000000180011300     sf_runtime:sf_runtime.dll
+ 0002:00000308       __imp_sf_mex_import        0000000180011308     sf_runtime:sf_runtime.dll
+ 0002:00000310       __imp_sf_mex_destroy       0000000180011310     sf_runtime:sf_runtime.dll
+ 0002:00000318       __imp_sf_mex_dup           0000000180011318     sf_runtime:sf_runtime.dll
+ 0002:00000320       __imp_sf_mex_assign        0000000180011320     sf_runtime:sf_runtime.dll
+ 0002:00000328       __imp_sf_mex_getcell       0000000180011328     sf_runtime:sf_runtime.dll
+ 0002:00000330       __imp_sf_mex_setcell       0000000180011330     sf_runtime:sf_runtime.dll
+ 0002:00000338       __imp_sf_mex_createcellmatrix 0000000180011338     sf_runtime:sf_runtime.dll
+ 0002:00000340       __imp_sf_mex_create        0000000180011340     sf_runtime:sf_runtime.dll
+ 0002:00000348       __imp_sf_mex_error_message 0000000180011348     sf_runtime:sf_runtime.dll
+ 0002:00000350       __imp_sfListenerInitializeRuntimeVars 0000000180011350     sf_runtime:sf_runtime.dll
+ 0002:00000358       __imp_sfListenerLightTerminate 0000000180011358     sf_runtime:sf_runtime.dll
+ 0002:00000360       __imp_sfListenerCacheSimStruct 0000000180011360     sf_runtime:sf_runtime.dll
+ 0002:00000368       __imp_sf_set_work_widths   0000000180011368     sf_runtime:sf_runtime.dll
+ 0002:00000370       __imp_sf_warn_if_symbolic_dimension_param_changed 0000000180011370     sf_runtime:sf_runtime.dll
+ 0002:00000378       __imp_setDebuggerFlag      0000000180011378     sf_runtime:sf_runtime.dll
+ 0002:00000380       __imp_setLegacyDebuggerFlag 0000000180011380     sf_runtime:sf_runtime.dll
+ 0002:00000388       __imp_setDataBrowseFcn     0000000180011388     sf_runtime:sf_runtime.dll
+ 0002:00000390       __imp_sfDoAnimationWrapper 0000000180011390     sf_runtime:sf_runtime.dll
+ 0002:00000398       __imp_sf_get_time          0000000180011398     sf_runtime:sf_runtime.dll
+ 0002:000003a0       __imp_sf_clear_rtw_identifier 00000001800113a0     sf_runtime:sf_runtime.dll
+ 0002:000003a8       __imp_sim_mode_is_external 00000001800113a8     sf_runtime:sf_runtime.dll
+ 0002:000003b0       __imp_sim_mode_is_rtw_gen  00000001800113b0     sf_runtime:sf_runtime.dll
+ 0002:000003b8       __imp_sf_get_chart_instance_ptr 00000001800113b8     sf_runtime:sf_runtime.dll
+ 0002:000003c0       __imp_sfrtGetCovrtInstance 00000001800113c0     sf_runtime:sf_runtime.dll
+ 0002:000003c8       __imp_sfrtGetEmlrtCtx      00000001800113c8     sf_runtime:sf_runtime.dll
+ 0002:000003d0       __imp_sf_free_ChartRunTimeInfo 00000001800113d0     sf_runtime:sf_runtime.dll
+ 0002:000003d8       __imp_sf_init_ChartRunTimeInfo 00000001800113d8     sf_runtime:sf_runtime.dll
+ 0002:000003e0       __imp_sf_load_rtw_optimization_info 00000001800113e0     sf_runtime:sf_runtime.dll
+ 0002:000003e8       \177sf_runtime_NULL_THUNK_DATA 00000001800113e8     sf_runtime:sf_runtime.dll
+ 0002:000003f0       __guard_check_icall_fptr   00000001800113f0     MSVCRT:guard_support.obj
+ 0002:000003f8       __guard_dispatch_icall_fptr 00000001800113f8     MSVCRT:guard_support.obj
+ 0002:00000400       __xc_a                     0000000180011400     MSVCRT:initializers.obj
+ 0002:00000408       __xc_z                     0000000180011408     MSVCRT:initializers.obj
+ 0002:00000410       __xi_a                     0000000180011410     MSVCRT:initializers.obj
+ 0002:00000418       __xi_z                     0000000180011418     MSVCRT:initializers.obj
+ 0002:00000420       __xp_a                     0000000180011420     MSVCRT:initializers.obj
+ 0002:00000428       __xp_z                     0000000180011428     MSVCRT:initializers.obj
+ 0002:00000430       __xt_a                     0000000180011430     MSVCRT:initializers.obj
+ 0002:00000438       __xt_z                     0000000180011438     MSVCRT:initializers.obj
+ 0002:00000440       __real@41b767afd1000000    0000000180011440     motor_model_updated_sfun.obj
+ 0002:00000448       __real@41c2390cd0000000    0000000180011448     motor_model_updated_sfun.obj
+ 0002:00000450       __real@41c6abaee8800000    0000000180011450     motor_model_updated_sfun.obj
+ 0002:00000458       __real@41d8178784c00000    0000000180011458     motor_model_updated_sfun.obj
+ 0002:00000460       __real@41d8a26b38800000    0000000180011460     motor_model_updated_sfun.obj
+ 0002:00000468       __real@41ddac6f39400000    0000000180011468     motor_model_updated_sfun.obj
+ 0002:00000470       __real@41ddf256c9400000    0000000180011470     motor_model_updated_sfun.obj
+ 0002:00000478       __real@41e384a628a00000    0000000180011478     motor_model_updated_sfun.obj
+ 0002:00000480       __real@41e9a05ab9200000    0000000180011480     motor_model_updated_sfun.obj
+ 0002:00000488       __real@41ee1f83ba400000    0000000180011488     motor_model_updated_sfun.obj
+ 0002:00000490       __real@41eef063a8600000    0000000180011490     motor_model_updated_sfun.obj
+ 0002:00000498       __real@41ef00c6cea00000    0000000180011498     motor_model_updated_sfun.obj
+ 0002:000004a8       __real@4014000000000000    00000001800114a8     c5_motor_model_updated.obj
+ 0002:000004b0       __real@41c3b48aea800000    00000001800114b0     c5_motor_model_updated.obj
+ 0002:000004b8       __real@41d0e0cc36400000    00000001800114b8     c5_motor_model_updated.obj
+ 0002:000004c0       __real@41e79e6e75000000    00000001800114c0     c5_motor_model_updated.obj
+ 0002:000004c8       __real@41ea850d29000000    00000001800114c8     c5_motor_model_updated.obj
+ 0002:000004d8       __real@41df47197e800000    00000001800114d8     c6_motor_model_updated.obj
+ 0002:000004e0       __real@41e8fdd233400000    00000001800114e0     c6_motor_model_updated.obj
+ 0002:000004e8       __real@41eafb1936800000    00000001800114e8     c6_motor_model_updated.obj
+ 0002:000004f0       __real@41efb38c91e00000    00000001800114f0     c6_motor_model_updated.obj
+ 0002:000004f8       DYNAMIC_DIMENSION_DEF      00000001800114f8     motor_model_updated_sfun_registry.obj
+ 0002:00000510       __real@0000000000000000    0000000180011510     motor_model_updated_sfun_registry.obj
+ 0002:00000518       __real@4010000000000000    0000000180011518     motor_model_updated_sfun_registry.obj
+ 0002:00000520       __real@41602cbca0000000    0000000180011520     motor_model_updated_sfun_registry.obj
+ 0002:00000528       __real@bff0000000000000    0000000180011528     motor_model_updated_sfun_registry.obj
+ 0002:00000540       _pDefaultRawDllMain        0000000180011540     MSVCRT:dll_dllmain.obj
+ 0002:00000540       _pRawDllMain               0000000180011540     MSVCRT:dll_dllmain.obj
+ 0002:00000570       _load_config_used          0000000180011570     MSVCRT:loadcfg.obj
+ 0002:00000888       __rtc_iaa                  0000000180011888     MSVCRT:initsect.obj
+ 0002:00000890       __rtc_izz                  0000000180011890     MSVCRT:initsect.obj
+ 0002:00000898       __rtc_taa                  0000000180011898     MSVCRT:initsect.obj
+ 0002:000008a0       __rtc_tzz                  00000001800118a0     MSVCRT:initsect.obj
+ 0002:000012f4       __IMPORT_DESCRIPTOR_sf_runtime 00000001800122f4     sf_runtime:sf_runtime.dll
+ 0002:00001308       __IMPORT_DESCRIPTOR_libmx  0000000180012308     libmx:libmx.dll
+ 0002:0000131c       __IMPORT_DESCRIPTOR_libmex 000000018001231c     libmex:libmex.dll
+ 0002:00001330       __IMPORT_DESCRIPTOR_libut  0000000180012330     libut:libut.dll
+ 0002:00001344       __IMPORT_DESCRIPTOR_libemlrt 0000000180012344     libemlrt:libemlrt.dll
+ 0002:00001358       __IMPORT_DESCRIPTOR_libcovrt 0000000180012358     libcovrt:libcovrt.dll
+ 0002:0000136c       __IMPORT_DESCRIPTOR_KERNEL32 000000018001236c     kernel32:KERNEL32.dll
+ 0002:00001380       __IMPORT_DESCRIPTOR_VCRUNTIME140 0000000180012380     vcruntime:VCRUNTIME140.dll
+ 0002:00001394       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 0000000180012394     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:000013a8       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 00000001800123a8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000013bc       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 00000001800123bc     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000013d0       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 00000001800123d0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000013e4       __NULL_IMPORT_DESCRIPTOR   00000001800123e4     sf_runtime:sf_runtime.dll
+ 0003:000053e0       DYNAMIC_DIMENSION          00000001800193e0     motor_model_updated_sfun_registry.obj
+ 0003:00007910       __security_cookie_complement 000000018001b910     MSVCRT:gs_cookie.obj
+ 0003:00007918       __security_cookie          000000018001b918     MSVCRT:gs_cookie.obj
+ 0003:00007920       _fltused                   000000018001b920     MSVCRT:fltused.obj
+ 0003:00007924       __scrt_native_dllmain_reason 000000018001b924     MSVCRT:utility.obj
+ 0003:00007928       __isa_available            000000018001b928     MSVCRT:cpu_disp.obj
+ 0003:0000792c       __isa_enabled              000000018001b92c     MSVCRT:cpu_disp.obj
+ 0003:00007930       __memcpy_nt_iters          000000018001b930     MSVCRT:cpu_disp.obj
+ 0003:00007940       __scrt_ucrt_dll_is_in_use  000000018001b940     MSVCRT:ucrt_stubs.obj
+ 0003:000082e8       analogPinHandleMap         000000018001c2e8     ArduinoPinHandleMap.obj
+ 0003:000082f8       PWMPinHandleMap            000000018001c2f8     ArduinoPinHandleMap.obj
+ 0003:00008890       ?__type_info_root_node@@3U__type_info_node@@A 000000018001c890     MSVCRT:tncleanup.obj
+ 0003:000088a0       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 000000018001c8a0     MSVCRT:default_local_stdio_options.obj
+ 0003:000088a8       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 000000018001c8a8     MSVCRT:default_local_stdio_options.obj
+ 0003:000088b0       __scrt_current_native_startup_state 000000018001c8b0     MSVCRT:utility.obj
+ 0003:000088b8       __scrt_native_startup_lock 000000018001c8b8     MSVCRT:utility.obj
+ 0003:000088f8       __scrt_debugger_hook_flag  000000018001c8f8     MSVCRT:utility_desktop.obj
+ 0003:000088fc       __favor                    000000018001c8fc     MSVCRT:cpu_disp.obj
+ 0003:00008900       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 000000018001c900     <common>
+ 0003:00008908       __dyn_tls_init_callback    000000018001c908     <common>
+
+ entry point at        0001:0000e5d8
+
+ Static symbols
+
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     motor_model_updated_sfun.exp
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0002:fffef000       __guard_fids__guard_icall_checks_enforced 0000000180000000     MSVCRT:guard_support.obj
+ 0002:fffef000       __guard_fids__             0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0002:fffef000       __guard_fids___scrt_set_unhandled_exception_filter 0000000180000000     MSVCRT:utility_desktop.obj
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0002:fffef000       __guard_fids_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRT:dll_dllmain.obj
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0001:000013a0       initialize_c5_motor_model_updated 00000001800023a0 f   c5_motor_model_updated.obj
+ 0001:00001400       initialize_params_c5_motor_model_updated 0000000180002400 f   c5_motor_model_updated.obj
+ 0001:00001410       enable_c5_motor_model_updated 0000000180002410 f   c5_motor_model_updated.obj
+ 0001:00001440       disable_c5_motor_model_updated 0000000180002440 f   c5_motor_model_updated.obj
+ 0001:00001470       c5_do_animation_call_c5_motor_model_updated 0000000180002470 f   c5_motor_model_updated.obj
+ 0001:000014b0       get_sim_state_c5_motor_model_updated 00000001800024b0 f   c5_motor_model_updated.obj
+ 0001:00001610       set_sim_state_c5_motor_model_updated 0000000180002610 f   c5_motor_model_updated.obj
+ 0001:000016d0       sf_gateway_c5_motor_model_updated 00000001800026d0 f   c5_motor_model_updated.obj
+ 0001:000019b0       mdl_start_c5_motor_model_updated 00000001800029b0 f   c5_motor_model_updated.obj
+ 0001:000019c0       mdl_terminate_c5_motor_model_updated 00000001800029c0 f   c5_motor_model_updated.obj
+ 0001:000019d0       mdl_setup_runtime_resources_c5_motor_model_updated 00000001800029d0 f   c5_motor_model_updated.obj
+ 0001:00001c20       mdl_cleanup_runtime_resources_c5_motor_model_updated 0000000180002c20 f   c5_motor_model_updated.obj
+ 0001:00001c60       initSimStructsc5_motor_model_updated 0000000180002c60 f   c5_motor_model_updated.obj
+ 0001:00001c70       c5_emlrt_marshallIn        0000000180002c70 f   c5_motor_model_updated.obj
+ 0001:00001ce0       c5_b_emlrt_marshallIn      0000000180002ce0 f   c5_motor_model_updated.obj
+ 0001:00001d70       c5_c_emlrt_marshallIn      0000000180002d70 f   c5_motor_model_updated.obj
+ 0001:00001de0       c5_d_emlrt_marshallIn      0000000180002de0 f   c5_motor_model_updated.obj
+ 0001:00001e70       c5_chart_data_browse_helper 0000000180002e70 f   c5_motor_model_updated.obj
+ 0001:00001f10       init_dsm_address_info      0000000180002f10 f   c5_motor_model_updated.obj
+ 0001:00001f20       init_simulink_io_address   0000000180002f20 f   c5_motor_model_updated.obj
+ 0001:000021d0       sf_get_sim_state_info_c5_motor_model_updated 00000001800031d0 f   c5_motor_model_updated.obj
+ 0001:00002290       sf_opaque_initialize_c5_motor_model_updated 0000000180003290 f   c5_motor_model_updated.obj
+ 0001:000022c0       sf_opaque_enable_c5_motor_model_updated 00000001800032c0 f   c5_motor_model_updated.obj
+ 0001:000022e0       sf_opaque_disable_c5_motor_model_updated 00000001800032e0 f   c5_motor_model_updated.obj
+ 0001:00002300       sf_opaque_gateway_c5_motor_model_updated 0000000180003300 f   c5_motor_model_updated.obj
+ 0001:00002320       sf_opaque_get_sim_state_c5_motor_model_updated 0000000180003320 f   c5_motor_model_updated.obj
+ 0001:00002350       sf_opaque_set_sim_state_c5_motor_model_updated 0000000180003350 f   c5_motor_model_updated.obj
+ 0001:00002380       sf_opaque_cleanup_runtime_resources_c5_motor_model_updated 0000000180003380 f   c5_motor_model_updated.obj
+ 0001:00002420       sf_opaque_mdl_start_c5_motor_model_updated 0000000180003420 f   c5_motor_model_updated.obj
+ 0001:00002440       sf_opaque_mdl_terminate_c5_motor_model_updated 0000000180003440 f   c5_motor_model_updated.obj
+ 0001:00002460       mdlProcessParameters_c5_motor_model_updated 0000000180003460 f   c5_motor_model_updated.obj
+ 0001:000026d0       mdlSetWorkWidths_c5_motor_model_updated 00000001800036d0 f   c5_motor_model_updated.obj
+ 0001:00002760       mdlRTW_c5_motor_model_updated 0000000180003760 f   c5_motor_model_updated.obj
+ 0001:000027a0       mdlSetupRuntimeResources_c5_motor_model_updated 00000001800037a0 f   c5_motor_model_updated.obj
+ 0001:00002cc0       initialize_c6_motor_model_updated 0000000180003cc0 f   c6_motor_model_updated.obj
+ 0001:00002d20       initialize_params_c6_motor_model_updated 0000000180003d20 f   c6_motor_model_updated.obj
+ 0001:00002d30       enable_c6_motor_model_updated 0000000180003d30 f   c6_motor_model_updated.obj
+ 0001:00002d60       disable_c6_motor_model_updated 0000000180003d60 f   c6_motor_model_updated.obj
+ 0001:00002d90       c6_do_animation_call_c6_motor_model_updated 0000000180003d90 f   c6_motor_model_updated.obj
+ 0001:00002dd0       get_sim_state_c6_motor_model_updated 0000000180003dd0 f   c6_motor_model_updated.obj
+ 0001:00002f30       set_sim_state_c6_motor_model_updated 0000000180003f30 f   c6_motor_model_updated.obj
+ 0001:00002ff0       sf_gateway_c6_motor_model_updated 0000000180003ff0 f   c6_motor_model_updated.obj
+ 0001:000032d0       mdl_start_c6_motor_model_updated 00000001800042d0 f   c6_motor_model_updated.obj
+ 0001:000032e0       mdl_terminate_c6_motor_model_updated 00000001800042e0 f   c6_motor_model_updated.obj
+ 0001:000032f0       mdl_setup_runtime_resources_c6_motor_model_updated 00000001800042f0 f   c6_motor_model_updated.obj
+ 0001:00003540       mdl_cleanup_runtime_resources_c6_motor_model_updated 0000000180004540 f   c6_motor_model_updated.obj
+ 0001:00003580       initSimStructsc6_motor_model_updated 0000000180004580 f   c6_motor_model_updated.obj
+ 0001:00003590       c6_emlrt_marshallIn        0000000180004590 f   c6_motor_model_updated.obj
+ 0001:00003600       c6_b_emlrt_marshallIn      0000000180004600 f   c6_motor_model_updated.obj
+ 0001:00003690       c6_c_emlrt_marshallIn      0000000180004690 f   c6_motor_model_updated.obj
+ 0001:00003700       c6_d_emlrt_marshallIn      0000000180004700 f   c6_motor_model_updated.obj
+ 0001:00003790       c6_chart_data_browse_helper 0000000180004790 f   c6_motor_model_updated.obj
+ 0001:00003830       init_dsm_address_info      0000000180004830 f   c6_motor_model_updated.obj
+ 0001:00003840       init_simulink_io_address   0000000180004840 f   c6_motor_model_updated.obj
+ 0001:00003af0       sf_get_sim_state_info_c6_motor_model_updated 0000000180004af0 f   c6_motor_model_updated.obj
+ 0001:00003bb0       sf_opaque_initialize_c6_motor_model_updated 0000000180004bb0 f   c6_motor_model_updated.obj
+ 0001:00003be0       sf_opaque_enable_c6_motor_model_updated 0000000180004be0 f   c6_motor_model_updated.obj
+ 0001:00003c00       sf_opaque_disable_c6_motor_model_updated 0000000180004c00 f   c6_motor_model_updated.obj
+ 0001:00003c20       sf_opaque_gateway_c6_motor_model_updated 0000000180004c20 f   c6_motor_model_updated.obj
+ 0001:00003c40       sf_opaque_get_sim_state_c6_motor_model_updated 0000000180004c40 f   c6_motor_model_updated.obj
+ 0001:00003c70       sf_opaque_set_sim_state_c6_motor_model_updated 0000000180004c70 f   c6_motor_model_updated.obj
+ 0001:00003ca0       sf_opaque_cleanup_runtime_resources_c6_motor_model_updated 0000000180004ca0 f   c6_motor_model_updated.obj
+ 0001:00003d40       sf_opaque_mdl_start_c6_motor_model_updated 0000000180004d40 f   c6_motor_model_updated.obj
+ 0001:00003d60       sf_opaque_mdl_terminate_c6_motor_model_updated 0000000180004d60 f   c6_motor_model_updated.obj
+ 0001:00003d80       mdlProcessParameters_c6_motor_model_updated 0000000180004d80 f   c6_motor_model_updated.obj
+ 0001:00003ff0       mdlSetWorkWidths_c6_motor_model_updated 0000000180004ff0 f   c6_motor_model_updated.obj
+ 0001:00004080       mdlRTW_c6_motor_model_updated 0000000180005080 f   c6_motor_model_updated.obj
+ 0001:000040c0       mdlSetupRuntimeResources_c6_motor_model_updated 00000001800050c0 f   c6_motor_model_updated.obj
+ 0001:00006a00       $LN190                     0000000180007a00     motor_model_updated_sfun_registry.obj
+ 0001:000077f4       $LN17                      00000001800087f4     motor_model_updated_sfun_registry.obj
+ 0001:00007ef4       $LN26                      0000000180008ef4     motor_model_updated_sfun_registry.obj
+ 0001:000085d4       $LN23                      00000001800095d4     motor_model_updated_sfun_registry.obj
+ 0001:0000918c       $LN26                      000000018000a18c     motor_model_updated_sfun_registry.obj
+ 0001:0000bb40       ProcessMexSfunctionCmdLineCall 000000018000cb40 f   motor_model_updated_sfun_registry.obj
+ 0001:0000be50       mdlSetWorkWidths           000000018000ce50 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bea0       mdlProcessParameters       000000018000cea0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bed0       mdl_setup_runtime_resources_processing 000000018000ced0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bf30       mdlSetupRuntimeResources   000000018000cf30 f   motor_model_updated_sfun_registry.obj
+ 0001:0000bf60       mdl_cleanup_runtime_resources_processing 000000018000cf60 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c020       mdlCleanupRuntimeResources 000000018000d020 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c050       mdl_start_processing       000000018000d050 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c090       mdlStart                   000000018000d090 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c0c0       mdl_terminate_processing   000000018000d0c0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c100       mdlTerminate               000000018000d100 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c130       mdlInitializeSizes         000000018000d130 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c160       mdlInitializeSampleTimes   000000018000d160 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c190       mdl_outputs_continuous_legacy 000000018000d190 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c290       mdl_outputs_processing     000000018000d290 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c3b0       mdl_zeroCrossings_processing 000000018000d3b0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c3f0       mdlZeroCrossings           000000018000d3f0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c420       mdl_derivatives_processing 000000018000d420 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c470       mdlDerivatives             000000018000d470 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c4a0       mdl_initialize_conditions_processing 000000018000d4a0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c4f0       mdlInitializeConditions    000000018000d4f0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c520       mdl_ext_mode_exec_processing 000000018000d520 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c560       mdlExtModeExec             000000018000d560 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c590       mdlRTW                     000000018000d590 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c5d0       mdl_enable_processing      000000018000d5d0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c610       mdlEnable                  000000018000d610 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c640       mdl_disable_processing     000000018000d640 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c680       mdlDisable                 000000018000d680 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c6b0       mdlOutputs                 000000018000d6b0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c6e0       mdl_update_processing      000000018000d6e0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c730       mdlUpdate                  000000018000d730 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c920       mdlGetTimeOfNextVarHit     000000018000d920 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c970       _RegNumInputPortsCB        000000018000d970 f   motor_model_updated_sfun_registry.obj
+ 0001:0000c9f0       _RegNumOutputPortsCB       000000018000d9f0 f   motor_model_updated_sfun_registry.obj
+ 0001:0000ca70       _CreateSimStruct           000000018000da70 f   motor_model_updated_sfun_registry.obj
+ 0001:0000cc90       _ProcessMexSfunctionCmdLineCall 000000018000dc90 f   motor_model_updated_sfun_registry.obj
+ 0001:0000d700       ReportIndexOutOfBoundsError 000000018000e700 f   motor_model_updated_sfun_registry.obj
+ 0001:0000e0e4       capture_current_context    000000018000f0e4 f   MSVCRT:gs_report.obj
+ 0001:0000e154       capture_previous_context   000000018000f154 f   MSVCRT:gs_report.obj
+ 0001:0000e250       $$000000                   000000018000f250     MSVCRT:amdsecgs.obj
+ 0001:0000e284       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000f284 f   MSVCRT:dll_dllmain.obj
+ 0001:0000e2d4       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000f2d4 f   MSVCRT:dll_dllmain.obj
+ 0001:0000e3f0       ?dllmain_crt_process_detach@@YAH_N@Z 000000018000f3f0 f   MSVCRT:dll_dllmain.obj
+ 0001:0000e480       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000f480 f   MSVCRT:dll_dllmain.obj
+ 0001:0000e5b4       ?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000f5b4 f   MSVCRT:dll_dllmain.obj
+ 0001:0000e618       __get_entropy              000000018000f618 f   MSVCRT:gs_support.obj
+ 0001:0000e7ec       ?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 000000018000f7ec f   MSVCRT:utility.obj
+ 0001:0000e840       ?is_potentially_valid_image_base@@YA_NQEAX@Z 000000018000f840 f   MSVCRT:utility.obj
+ 0001:0000f220       $$000000                   0000000180010220     MSVCRT:guard_dispatch.obj
+ 0001:0000f232       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180010232 f   MSVCRT:dll_dllmain.obj
+ 0001:0000f249       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180010249 f   MSVCRT:dll_dllmain.obj
+ 0001:0000f265       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 0000000180010265 f   MSVCRT:dll_dllmain.obj
+ 0001:0000f29b       __scrt_is_nonwritable_in_current_image$filt$0 000000018001029b f   MSVCRT:utility.obj
+ 0002:000004a0       ?c5_decisionTxtStartIdx@?1??mdl_setup_runtime_resources_c5_motor_model_updated@@9@9 00000001800114a0     c5_motor_model_updated.obj
+ 0002:000004a4       ?c5_decisionTxtEndIdx@?1??mdl_setup_runtime_resources_c5_motor_model_updated@@9@9 00000001800114a4     c5_motor_model_updated.obj
+ 0002:000004d0       ?c6_decisionTxtStartIdx@?1??mdl_setup_runtime_resources_c6_motor_model_updated@@9@9 00000001800114d0     c6_motor_model_updated.obj
+ 0002:000004d4       ?c6_decisionTxtEndIdx@?1??mdl_setup_runtime_resources_c6_motor_model_updated@@9@9 00000001800114d4     c6_motor_model_updated.obj
+ 0002:00000530       GS_ExceptionPointers       0000000180011530     MSVCRT:gs_report.obj
+ 0002:000008a8       $unwind$load_motor_model_updated_optimization_info 00000001800118a8     motor_model_updated_sfun.obj
+ 0002:000008b0       $unwind$unload_motor_model_updated_optimization_info 00000001800118b0     motor_model_updated_sfun.obj
+ 0002:000008b8       $unwind$sf_motor_model_updated_method_dispatcher 00000001800118b8     motor_model_updated_sfun.obj
+ 0002:000008c0       $unwind$sf_motor_model_updated_process_check_sum_call 00000001800118c0     motor_model_updated_sfun.obj
+ 0002:000008d0       $unwind$sf_motor_model_updated_get_eml_resolved_functions_info 00000001800118d0     motor_model_updated_sfun.obj
+ 0002:000008e0       $unwind$sf_motor_model_updated_third_party_uses_info 00000001800118e0     motor_model_updated_sfun.obj
+ 0002:000008f0       $unwind$sf_motor_model_updated_jit_fallback_info 00000001800118f0     motor_model_updated_sfun.obj
+ 0002:00000900       $unwind$sf_motor_model_updated_get_post_codegen_info 0000000180011900     motor_model_updated_sfun.obj
+ 0002:00000910       $unwind$sf_motor_model_updated_updateBuildInfo_args_info 0000000180011910     motor_model_updated_sfun.obj
+ 0002:00000920       $unwind$sf_c5_motor_model_updated_get_eml_resolved_functions_info 0000000180011920     c5_motor_model_updated.obj
+ 0002:00000930       $unwind$sf_c5_motor_model_updated_get_check_sum 0000000180011930     c5_motor_model_updated.obj
+ 0002:00000938       $unwind$c5_motor_model_updated_method_dispatcher 0000000180011938     c5_motor_model_updated.obj
+ 0002:00000940       $unwind$initialize_c5_motor_model_updated 0000000180011940     c5_motor_model_updated.obj
+ 0002:00000948       $unwind$enable_c5_motor_model_updated 0000000180011948     c5_motor_model_updated.obj
+ 0002:00000950       $unwind$disable_c5_motor_model_updated 0000000180011950     c5_motor_model_updated.obj
+ 0002:00000958       $unwind$c5_do_animation_call_c5_motor_model_updated 0000000180011958     c5_motor_model_updated.obj
+ 0002:00000960       $unwind$get_sim_state_c5_motor_model_updated 0000000180011960     c5_motor_model_updated.obj
+ 0002:00000968       $unwind$set_sim_state_c5_motor_model_updated 0000000180011968     c5_motor_model_updated.obj
+ 0002:00000970       $unwind$sf_gateway_c5_motor_model_updated 0000000180011970     c5_motor_model_updated.obj
+ 0002:00000978       $unwind$mdl_setup_runtime_resources_c5_motor_model_updated 0000000180011978     c5_motor_model_updated.obj
+ 0002:00000980       $unwind$mdl_cleanup_runtime_resources_c5_motor_model_updated 0000000180011980     c5_motor_model_updated.obj
+ 0002:00000988       $unwind$c5_emlrt_marshallIn 0000000180011988     c5_motor_model_updated.obj
+ 0002:00000990       $unwind$c5_b_emlrt_marshallIn 0000000180011990     c5_motor_model_updated.obj
+ 0002:00000998       $unwind$c5_c_emlrt_marshallIn 0000000180011998     c5_motor_model_updated.obj
+ 0002:000009a0       $unwind$c5_d_emlrt_marshallIn 00000001800119a0     c5_motor_model_updated.obj
+ 0002:000009a8       $unwind$c5_chart_data_browse_helper 00000001800119a8     c5_motor_model_updated.obj
+ 0002:000009b0       $unwind$init_simulink_io_address 00000001800119b0     c5_motor_model_updated.obj
+ 0002:000009b8       $unwind$sf_c5_motor_model_updated_third_party_uses_info 00000001800119b8     c5_motor_model_updated.obj
+ 0002:000009c0       $unwind$sf_c5_motor_model_updated_jit_fallback_info 00000001800119c0     c5_motor_model_updated.obj
+ 0002:000009d0       $unwind$sf_c5_motor_model_updated_updateBuildInfo_args_info 00000001800119d0     c5_motor_model_updated.obj
+ 0002:000009d8       $unwind$sf_get_sim_state_info_c5_motor_model_updated 00000001800119d8     c5_motor_model_updated.obj
+ 0002:000009e0       $unwind$sf_opaque_initialize_c5_motor_model_updated 00000001800119e0     c5_motor_model_updated.obj
+ 0002:000009e8       $unwind$sf_opaque_enable_c5_motor_model_updated 00000001800119e8     c5_motor_model_updated.obj
+ 0002:000009f0       $unwind$sf_opaque_disable_c5_motor_model_updated 00000001800119f0     c5_motor_model_updated.obj
+ 0002:000009f8       $unwind$sf_opaque_gateway_c5_motor_model_updated 00000001800119f8     c5_motor_model_updated.obj
+ 0002:00000a00       $unwind$sf_opaque_get_sim_state_c5_motor_model_updated 0000000180011a00     c5_motor_model_updated.obj
+ 0002:00000a08       $unwind$sf_opaque_set_sim_state_c5_motor_model_updated 0000000180011a08     c5_motor_model_updated.obj
+ 0002:00000a10       $unwind$sf_opaque_cleanup_runtime_resources_c5_motor_model_updated 0000000180011a10     c5_motor_model_updated.obj
+ 0002:00000a18       $unwind$sf_opaque_mdl_start_c5_motor_model_updated 0000000180011a18     c5_motor_model_updated.obj
+ 0002:00000a20       $unwind$sf_opaque_mdl_terminate_c5_motor_model_updated 0000000180011a20     c5_motor_model_updated.obj
+ 0002:00000a28       $unwind$mdlProcessParameters_c5_motor_model_updated 0000000180011a28     c5_motor_model_updated.obj
+ 0002:00000a30       $unwind$sf_c5_motor_model_updated_get_post_codegen_info 0000000180011a30     c5_motor_model_updated.obj
+ 0002:00000a40       $unwind$mdlSetWorkWidths_c5_motor_model_updated 0000000180011a40     c5_motor_model_updated.obj
+ 0002:00000a48       $unwind$mdlRTW_c5_motor_model_updated 0000000180011a48     c5_motor_model_updated.obj
+ 0002:00000a50       $unwind$mdlSetupRuntimeResources_c5_motor_model_updated 0000000180011a50     c5_motor_model_updated.obj
+ 0002:00000a58       $unwind$sf_c6_motor_model_updated_get_eml_resolved_functions_info 0000000180011a58     c6_motor_model_updated.obj
+ 0002:00000a68       $unwind$sf_c6_motor_model_updated_get_check_sum 0000000180011a68     c6_motor_model_updated.obj
+ 0002:00000a70       $unwind$c6_motor_model_updated_method_dispatcher 0000000180011a70     c6_motor_model_updated.obj
+ 0002:00000a78       $unwind$initialize_c6_motor_model_updated 0000000180011a78     c6_motor_model_updated.obj
+ 0002:00000a80       $unwind$enable_c6_motor_model_updated 0000000180011a80     c6_motor_model_updated.obj
+ 0002:00000a88       $unwind$disable_c6_motor_model_updated 0000000180011a88     c6_motor_model_updated.obj
+ 0002:00000a90       $unwind$c6_do_animation_call_c6_motor_model_updated 0000000180011a90     c6_motor_model_updated.obj
+ 0002:00000a98       $unwind$get_sim_state_c6_motor_model_updated 0000000180011a98     c6_motor_model_updated.obj
+ 0002:00000aa0       $unwind$set_sim_state_c6_motor_model_updated 0000000180011aa0     c6_motor_model_updated.obj
+ 0002:00000aa8       $unwind$sf_gateway_c6_motor_model_updated 0000000180011aa8     c6_motor_model_updated.obj
+ 0002:00000ab0       $unwind$mdl_setup_runtime_resources_c6_motor_model_updated 0000000180011ab0     c6_motor_model_updated.obj
+ 0002:00000ab8       $unwind$mdl_cleanup_runtime_resources_c6_motor_model_updated 0000000180011ab8     c6_motor_model_updated.obj
+ 0002:00000ac0       $unwind$c6_emlrt_marshallIn 0000000180011ac0     c6_motor_model_updated.obj
+ 0002:00000ac8       $unwind$c6_b_emlrt_marshallIn 0000000180011ac8     c6_motor_model_updated.obj
+ 0002:00000ad0       $unwind$c6_c_emlrt_marshallIn 0000000180011ad0     c6_motor_model_updated.obj
+ 0002:00000ad8       $unwind$c6_d_emlrt_marshallIn 0000000180011ad8     c6_motor_model_updated.obj
+ 0002:00000ae0       $unwind$c6_chart_data_browse_helper 0000000180011ae0     c6_motor_model_updated.obj
+ 0002:00000ae8       $unwind$init_simulink_io_address 0000000180011ae8     c6_motor_model_updated.obj
+ 0002:00000af0       $unwind$sf_c6_motor_model_updated_third_party_uses_info 0000000180011af0     c6_motor_model_updated.obj
+ 0002:00000af8       $unwind$sf_c6_motor_model_updated_jit_fallback_info 0000000180011af8     c6_motor_model_updated.obj
+ 0002:00000b08       $unwind$sf_c6_motor_model_updated_updateBuildInfo_args_info 0000000180011b08     c6_motor_model_updated.obj
+ 0002:00000b10       $unwind$sf_get_sim_state_info_c6_motor_model_updated 0000000180011b10     c6_motor_model_updated.obj
+ 0002:00000b18       $unwind$sf_opaque_initialize_c6_motor_model_updated 0000000180011b18     c6_motor_model_updated.obj
+ 0002:00000b20       $unwind$sf_opaque_enable_c6_motor_model_updated 0000000180011b20     c6_motor_model_updated.obj
+ 0002:00000b28       $unwind$sf_opaque_disable_c6_motor_model_updated 0000000180011b28     c6_motor_model_updated.obj
+ 0002:00000b30       $unwind$sf_opaque_gateway_c6_motor_model_updated 0000000180011b30     c6_motor_model_updated.obj
+ 0002:00000b38       $unwind$sf_opaque_get_sim_state_c6_motor_model_updated 0000000180011b38     c6_motor_model_updated.obj
+ 0002:00000b40       $unwind$sf_opaque_set_sim_state_c6_motor_model_updated 0000000180011b40     c6_motor_model_updated.obj
+ 0002:00000b48       $unwind$sf_opaque_cleanup_runtime_resources_c6_motor_model_updated 0000000180011b48     c6_motor_model_updated.obj
+ 0002:00000b50       $unwind$sf_opaque_mdl_start_c6_motor_model_updated 0000000180011b50     c6_motor_model_updated.obj
+ 0002:00000b58       $unwind$sf_opaque_mdl_terminate_c6_motor_model_updated 0000000180011b58     c6_motor_model_updated.obj
+ 0002:00000b60       $unwind$mdlProcessParameters_c6_motor_model_updated 0000000180011b60     c6_motor_model_updated.obj
+ 0002:00000b68       $unwind$sf_c6_motor_model_updated_get_post_codegen_info 0000000180011b68     c6_motor_model_updated.obj
+ 0002:00000b78       $unwind$mdlSetWorkWidths_c6_motor_model_updated 0000000180011b78     c6_motor_model_updated.obj
+ 0002:00000b80       $unwind$mdlRTW_c6_motor_model_updated 0000000180011b80     c6_motor_model_updated.obj
+ 0002:00000b88       $unwind$mdlSetupRuntimeResources_c6_motor_model_updated 0000000180011b88     c6_motor_model_updated.obj
+ 0002:00000b90       $unwind$_vsnprintf_l       0000000180011b90     motor_model_updated_sfun_registry.obj
+ 0002:00000b98       $unwind$_vsprintf_l        0000000180011b98     motor_model_updated_sfun_registry.obj
+ 0002:00000ba0       $unwind$sprintf            0000000180011ba0     motor_model_updated_sfun_registry.obj
+ 0002:00000ba8       $unwind$mexFunction        0000000180011ba8     motor_model_updated_sfun_registry.obj
+ 0002:00000bb8       $unwind$_ssSetInputPortDirectFeedThroughFcn 0000000180011bb8     motor_model_updated_sfun_registry.obj
+ 0002:00000bc8       $unwind$_ssSetRWorkValueFcn 0000000180011bc8     motor_model_updated_sfun_registry.obj
+ 0002:00000bd0       $unwind$_ssGetRWorkValueFcn 0000000180011bd0     motor_model_updated_sfun_registry.obj
+ 0002:00000bd8       $unwind$_ssSetIWorkValueFcn 0000000180011bd8     motor_model_updated_sfun_registry.obj
+ 0002:00000be0       $unwind$_ssGetIWorkValueFcn 0000000180011be0     motor_model_updated_sfun_registry.obj
+ 0002:00000be8       $unwind$_ssSetPWorkValueFcn 0000000180011be8     motor_model_updated_sfun_registry.obj
+ 0002:00000bf0       $unwind$_ssGetPWorkValueFcn 0000000180011bf0     motor_model_updated_sfun_registry.obj
+ 0002:00000bf8       $unwind$_ssGetInputPortSignalFcn 0000000180011bf8     motor_model_updated_sfun_registry.obj
+ 0002:00000c08       $unwind$_ssGetInputPortBufferDstPortFcn 0000000180011c08     motor_model_updated_sfun_registry.obj
+ 0002:00000c10       $unwind$_ssGetInputPortSignalPtrsFcn 0000000180011c10     motor_model_updated_sfun_registry.obj
+ 0002:00000c20       $unwind$ssGetParameterTuningCompliance 0000000180011c20     motor_model_updated_sfun_registry.obj
+ 0002:00000c28       $unwind$ssGetDTypeIdFromMxArray 0000000180011c28     motor_model_updated_sfun_registry.obj
+ 0002:00000c30       $unwind$ssWriteRTWMx2dMatParam 0000000180011c30     motor_model_updated_sfun_registry.obj
+ 0002:00000c38       $unwind$ssWriteRTWMxVectParam 0000000180011c38     motor_model_updated_sfun_registry.obj
+ 0002:00000c40       $unwind$ssWriteRTWParameters 0000000180011c40     motor_model_updated_sfun_registry.obj
+ 0002:00000c48       $unwind$ssWriteRTWParamSettings 0000000180011c48     motor_model_updated_sfun_registry.obj
+ 0002:00000c50       $unwind$ssWriteRTWStr      0000000180011c50     motor_model_updated_sfun_registry.obj
+ 0002:00000c58       $unwind$ssWriteRTWWorkVect 0000000180011c58     motor_model_updated_sfun_registry.obj
+ 0002:00000c6c       $unwind$ssWarning          0000000180011c6c     motor_model_updated_sfun_registry.obj
+ 0002:00000c80       $unwind$ssWriteRTWNameValuePair 0000000180011c80     motor_model_updated_sfun_registry.obj
+ 0002:00000c88       $unwind$_ssSetInputPortMatrixDimensions 0000000180011c88     motor_model_updated_sfun_registry.obj
+ 0002:00000c94       $unwind$_ssSetOutputPortMatrixDimensions 0000000180011c94     motor_model_updated_sfun_registry.obj
+ 0002:00000ca0       $unwind$_ssSetInputPortVectorDimension 0000000180011ca0     motor_model_updated_sfun_registry.obj
+ 0002:00000cac       $unwind$_ssSetOutputPortVectorDimension 0000000180011cac     motor_model_updated_sfun_registry.obj
+ 0002:00000cb8       $unwind$ssIsRunTimeParamTunable 0000000180011cb8     motor_model_updated_sfun_registry.obj
+ 0002:00000cc0       $unwind$ssGetSFuncBlockHandle 0000000180011cc0     motor_model_updated_sfun_registry.obj
+ 0002:00000cc8       $unwind$_ssGetCurrentInputPortWidth 0000000180011cc8     motor_model_updated_sfun_registry.obj
+ 0002:00000cd0       $unwind$_ssGetCurrentOutputPortWidth 0000000180011cd0     motor_model_updated_sfun_registry.obj
+ 0002:00000cd8       $unwind$_ssGetCallSystemNumFcnCallDestinations 0000000180011cd8     motor_model_updated_sfun_registry.obj
+ 0002:00000ce0       $unwind$ssGetIsZeroCrossControlDisabled 0000000180011ce0     motor_model_updated_sfun_registry.obj
+ 0002:00000ce8       $unwind$ssSetIsInputPortUsedForContZcSignal 0000000180011ce8     motor_model_updated_sfun_registry.obj
+ 0002:00000cf0       $unwind$ssSetZcSignalIsZcElementDisc 0000000180011cf0     motor_model_updated_sfun_registry.obj
+ 0002:00000d00       $unwind$ssSetZcSignalName  0000000180011d00     motor_model_updated_sfun_registry.obj
+ 0002:00000d08       $unwind$ssSetZcSignalWidth 0000000180011d08     motor_model_updated_sfun_registry.obj
+ 0002:00000d10       $unwind$ssSetZcSignalZcEventType 0000000180011d10     motor_model_updated_sfun_registry.obj
+ 0002:00000d18       $unwind$ssSetZcSignalType  0000000180011d18     motor_model_updated_sfun_registry.obj
+ 0002:00000d20       $unwind$ssSetZcSignalZcTol 0000000180011d20     motor_model_updated_sfun_registry.obj
+ 0002:00000d28       $unwind$ssSetZcSignalNeedsEventNotification 0000000180011d28     motor_model_updated_sfun_registry.obj
+ 0002:00000d30       $unwind$ssCreateAndAddZcSignalInfo 0000000180011d30     motor_model_updated_sfun_registry.obj
+ 0002:00000d38       $unwind$ssCloneAndAddZcSignalInfo 0000000180011d38     motor_model_updated_sfun_registry.obj
+ 0002:00000d40       $unwind$ssGetNumZcSignals  0000000180011d40     motor_model_updated_sfun_registry.obj
+ 0002:00000d48       $unwind$ssGetZcSignalVector 0000000180011d48     motor_model_updated_sfun_registry.obj
+ 0002:00000d50       $unwind$ssGetZcSignalName  0000000180011d50     motor_model_updated_sfun_registry.obj
+ 0002:00000d58       $unwind$ssGetZcSignalWidth 0000000180011d58     motor_model_updated_sfun_registry.obj
+ 0002:00000d60       $unwind$ssGetZcSignalZcEventType 0000000180011d60     motor_model_updated_sfun_registry.obj
+ 0002:00000d68       $unwind$ssGetZcSignalZcEvents 0000000180011d68     motor_model_updated_sfun_registry.obj
+ 0002:00000d70       $unwind$ssGetZcSignalType  0000000180011d70     motor_model_updated_sfun_registry.obj
+ 0002:00000d78       $unwind$ssGetZcSignalZcTol 0000000180011d78     motor_model_updated_sfun_registry.obj
+ 0002:00000d80       $unwind$ssGetZcSignalNeedsEventNotification 0000000180011d80     motor_model_updated_sfun_registry.obj
+ 0002:00000d88       $unwind$ssGetZcSignalIsZcElementDisc 0000000180011d88     motor_model_updated_sfun_registry.obj
+ 0002:00000d98       $unwind$ssGetIsInputPortElementContinuous 0000000180011d98     motor_model_updated_sfun_registry.obj
+ 0002:00000da8       $unwind$_ssGetAbsTol       0000000180011da8     motor_model_updated_sfun_registry.obj
+ 0002:00000db0       $unwind$_ssSetInputPortReusableFcn 0000000180011db0     motor_model_updated_sfun_registry.obj
+ 0002:00000db8       $unwind$_ssSetOutputPortReusableFcn 0000000180011db8     motor_model_updated_sfun_registry.obj
+ 0002:00000dc0       $unwind$_ssSetSymbolicDimsSupport 0000000180011dc0     motor_model_updated_sfun_registry.obj
+ 0002:00000dc8       $unwind$_ssRegisterSymbolicDimsExpr 0000000180011dc8     motor_model_updated_sfun_registry.obj
+ 0002:00000dd0       $unwind$_ssRegisterSymbolicDims 0000000180011dd0     motor_model_updated_sfun_registry.obj
+ 0002:00000dd8       $unwind$_ssRegisterSymbolicDimsString 0000000180011dd8     motor_model_updated_sfun_registry.obj
+ 0002:00000de0       $unwind$_ssRegisterSymbolicDimsIntValue 0000000180011de0     motor_model_updated_sfun_registry.obj
+ 0002:00000de8       $unwind$_ssRegisterSymbolicDimsPlus 0000000180011de8     motor_model_updated_sfun_registry.obj
+ 0002:00000df0       $unwind$_ssRegisterSymbolicDimsMinus 0000000180011df0     motor_model_updated_sfun_registry.obj
+ 0002:00000df8       $unwind$_ssRegisterSymbolicDimsMultiply 0000000180011df8     motor_model_updated_sfun_registry.obj
+ 0002:00000e00       $unwind$_ssRegisterSymbolicDimsDivide 0000000180011e00     motor_model_updated_sfun_registry.obj
+ 0002:00000e08       $unwind$_ssGetNumSymbolicDims 0000000180011e08     motor_model_updated_sfun_registry.obj
+ 0002:00000e10       $unwind$_ssGetSymbolicDim  0000000180011e10     motor_model_updated_sfun_registry.obj
+ 0002:00000e18       $unwind$_ssSetInputPortSymbolicDimsId 0000000180011e18     motor_model_updated_sfun_registry.obj
+ 0002:00000e20       $unwind$_ssGetCompInputPortSymbolicDimsId 0000000180011e20     motor_model_updated_sfun_registry.obj
+ 0002:00000e28       $unwind$_ssSetCompInputPortSymbolicDimsId 0000000180011e28     motor_model_updated_sfun_registry.obj
+ 0002:00000e30       $unwind$_ssSetOutputPortSymbolicDimsId 0000000180011e30     motor_model_updated_sfun_registry.obj
+ 0002:00000e38       $unwind$_ssGetCompOutputPortSymbolicDimsId 0000000180011e38     motor_model_updated_sfun_registry.obj
+ 0002:00000e40       $unwind$_ssSetCompOutputPortSymbolicDimsId 0000000180011e40     motor_model_updated_sfun_registry.obj
+ 0002:00000e48       $unwind$_ssSetCompDWorkSymbolicDimsId 0000000180011e48     motor_model_updated_sfun_registry.obj
+ 0002:00000e50       $unwind$sf_process_check_sum_call 0000000180011e50     motor_model_updated_sfun_registry.obj
+ 0002:00000e58       $unwind$sf_process_get_third_party_uses_info_call 0000000180011e58     motor_model_updated_sfun_registry.obj
+ 0002:00000e68       $unwind$sf_process_get_jit_fallback_info_call 0000000180011e68     motor_model_updated_sfun_registry.obj
+ 0002:00000e78       $unwind$sf_process_get_post_codegen_info_call 0000000180011e78     motor_model_updated_sfun_registry.obj
+ 0002:00000e88       $unwind$sf_process_get_updateBuildInfo_args_info_call 0000000180011e88     motor_model_updated_sfun_registry.obj
+ 0002:00000e98       $unwind$sf_process_get_eml_resolved_functions_info_call 0000000180011e98     motor_model_updated_sfun_registry.obj
+ 0002:00000ea8       $unwind$sf_mex_unlock_call 0000000180011ea8     motor_model_updated_sfun_registry.obj
+ 0002:00000eb8       $unwind$ProcessMexSfunctionCmdLineCall 0000000180011eb8     motor_model_updated_sfun_registry.obj
+ 0002:00000ec0       $unwind$sf_machine_global_initializer_called 0000000180011ec0     motor_model_updated_sfun_registry.obj
+ 0002:00000ec8       $unwind$sf_machine_global_method_dispatcher 0000000180011ec8     motor_model_updated_sfun_registry.obj
+ 0002:00000ed0       $unwind$sf_machine_global_terminator 0000000180011ed0     motor_model_updated_sfun_registry.obj
+ 0002:00000ed8       $unwind$sf_register_machine_exported_symbols 0000000180011ed8     motor_model_updated_sfun_registry.obj
+ 0002:00000ee0       $unwind$sf_machine_global_initializer 0000000180011ee0     motor_model_updated_sfun_registry.obj
+ 0002:00000ee8       $unwind$mdlGetSimState     0000000180011ee8     motor_model_updated_sfun_registry.obj
+ 0002:00000ef0       $unwind$mdlSetSimState     0000000180011ef0     motor_model_updated_sfun_registry.obj
+ 0002:00000ef8       $unwind$mdlSetWorkWidths   0000000180011ef8     motor_model_updated_sfun_registry.obj
+ 0002:00000f00       $unwind$mdlProcessParameters 0000000180011f00     motor_model_updated_sfun_registry.obj
+ 0002:00000f08       $unwind$mdl_setup_runtime_resources_processing 0000000180011f08     motor_model_updated_sfun_registry.obj
+ 0002:00000f10       $unwind$mdlSetupRuntimeResources 0000000180011f10     motor_model_updated_sfun_registry.obj
+ 0002:00000f18       $unwind$mdl_cleanup_runtime_resources_processing 0000000180011f18     motor_model_updated_sfun_registry.obj
+ 0002:00000f20       $unwind$mdlCleanupRuntimeResources 0000000180011f20     motor_model_updated_sfun_registry.obj
+ 0002:00000f28       $unwind$mdl_start_processing 0000000180011f28     motor_model_updated_sfun_registry.obj
+ 0002:00000f30       $unwind$mdlStart           0000000180011f30     motor_model_updated_sfun_registry.obj
+ 0002:00000f38       $unwind$mdl_terminate_processing 0000000180011f38     motor_model_updated_sfun_registry.obj
+ 0002:00000f40       $unwind$mdlTerminate       0000000180011f40     motor_model_updated_sfun_registry.obj
+ 0002:00000f48       $unwind$mdlInitializeSizes 0000000180011f48     motor_model_updated_sfun_registry.obj
+ 0002:00000f50       $unwind$mdlInitializeSampleTimes 0000000180011f50     motor_model_updated_sfun_registry.obj
+ 0002:00000f58       $unwind$mdl_outputs_continuous_legacy 0000000180011f58     motor_model_updated_sfun_registry.obj
+ 0002:00000f60       $unwind$mdl_outputs_processing 0000000180011f60     motor_model_updated_sfun_registry.obj
+ 0002:00000f68       $unwind$mdl_zeroCrossings_processing 0000000180011f68     motor_model_updated_sfun_registry.obj
+ 0002:00000f70       $unwind$mdlZeroCrossings   0000000180011f70     motor_model_updated_sfun_registry.obj
+ 0002:00000f78       $unwind$mdl_derivatives_processing 0000000180011f78     motor_model_updated_sfun_registry.obj
+ 0002:00000f80       $unwind$mdlDerivatives     0000000180011f80     motor_model_updated_sfun_registry.obj
+ 0002:00000f88       $unwind$mdl_initialize_conditions_processing 0000000180011f88     motor_model_updated_sfun_registry.obj
+ 0002:00000f90       $unwind$mdlInitializeConditions 0000000180011f90     motor_model_updated_sfun_registry.obj
+ 0002:00000f98       $unwind$mdl_ext_mode_exec_processing 0000000180011f98     motor_model_updated_sfun_registry.obj
+ 0002:00000fa0       $unwind$mdlExtModeExec     0000000180011fa0     motor_model_updated_sfun_registry.obj
+ 0002:00000fa8       $unwind$mdlRTW             0000000180011fa8     motor_model_updated_sfun_registry.obj
+ 0002:00000fb0       $unwind$mdl_enable_processing 0000000180011fb0     motor_model_updated_sfun_registry.obj
+ 0002:00000fb8       $unwind$mdlEnable          0000000180011fb8     motor_model_updated_sfun_registry.obj
+ 0002:00000fc0       $unwind$mdl_disable_processing 0000000180011fc0     motor_model_updated_sfun_registry.obj
+ 0002:00000fc8       $unwind$mdlDisable         0000000180011fc8     motor_model_updated_sfun_registry.obj
+ 0002:00000fd0       $unwind$mdlOutputs         0000000180011fd0     motor_model_updated_sfun_registry.obj
+ 0002:00000fd8       $unwind$mdl_update_processing 0000000180011fd8     motor_model_updated_sfun_registry.obj
+ 0002:00000fe0       $unwind$mdlUpdate          0000000180011fe0     motor_model_updated_sfun_registry.obj
+ 0002:00000fe8       $unwind$ProcessMexSfunctionEveryCall 0000000180011fe8     motor_model_updated_sfun_registry.obj
+ 0002:00000ff0       $unwind$_RegNumInputPortsCB 0000000180011ff0     motor_model_updated_sfun_registry.obj
+ 0002:00000ff8       $unwind$_RegNumOutputPortsCB 0000000180011ff8     motor_model_updated_sfun_registry.obj
+ 0002:00001000       $unwind$_CreateSimStruct   0000000180012000     motor_model_updated_sfun_registry.obj
+ 0002:00001008       $unwind$_ProcessMexSfunctionCmdLineCall 0000000180012008     motor_model_updated_sfun_registry.obj
+ 0002:00001018       $unwind$ReportIndexOutOfBoundsError 0000000180012018     motor_model_updated_sfun_registry.obj
+ 0002:00001028       $unwind$__report_securityfailure 0000000180012028     MSVCRT:gs_report.obj
+ 0002:00001030       $unwind$__report_securityfailureEx 0000000180012030     MSVCRT:gs_report.obj
+ 0002:00001038       $unwind$__report_rangecheckfailure 0000000180012038     MSVCRT:gs_report.obj
+ 0002:00001040       $unwind$__report_gsfailure 0000000180012040     MSVCRT:gs_report.obj
+ 0002:00001048       $unwind$capture_current_context 0000000180012048     MSVCRT:gs_report.obj
+ 0002:00001054       $unwind$capture_previous_context 0000000180012054     MSVCRT:gs_report.obj
+ 0002:00001060       $unwind$__raise_securityfailure 0000000180012060     MSVCRT:gs_report.obj
+ 0002:00001068       $unwind$__GSHandlerCheckCommon 0000000180012068     MSVCRT:gshandler.obj
+ 0002:00001070       $unwind$__GSHandlerCheck   0000000180012070     MSVCRT:gshandler.obj
+ 0002:00001078       $xdatasym                  0000000180012078     MSVCRT:amdsecgs.obj
+ 0002:0000107c       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018001207c     MSVCRT:dll_dllmain.obj
+ 0002:000010b8       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 00000001800120b8     MSVCRT:dll_dllmain.obj
+ 0002:000010c0       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 00000001800120c0     MSVCRT:dll_dllmain.obj
+ 0002:000010f8       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 00000001800120f8     MSVCRT:dll_dllmain.obj
+ 0002:00001100       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180012100     MSVCRT:dll_dllmain.obj
+ 0002:00001108       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180012108     MSVCRT:dll_dllmain.obj
+ 0002:00001130       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 0000000180012130     MSVCRT:dll_dllmain.obj
+ 0002:00001138       $unwind$_DllMainCRTStartup 0000000180012138     MSVCRT:dll_dllmain.obj
+ 0002:00001148       $unwind$__security_init_cookie 0000000180012148     MSVCRT:gs_support.obj
+ 0002:00001154       $unwind$__get_entropy      0000000180012154     MSVCRT:gs_support.obj
+ 0002:0000115c       $unwind$DllMain            000000018001215c     MSVCRT:dll_dllmain_stub.obj
+ 0002:00001164       $unwind$__scrt_initialize_default_local_stdio_options 0000000180012164     MSVCRT:default_local_stdio_options.obj
+ 0002:0000116c       $unwind$atexit             000000018001216c     MSVCRT:utility.obj
+ 0002:00001174       $unwind$_onexit            0000000180012174     MSVCRT:utility.obj
+ 0002:0000117c       $unwind$__scrt_is_nonwritable_in_current_image 000000018001217c     MSVCRT:utility.obj
+ 0002:0000119c       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 000000018001219c     MSVCRT:utility.obj
+ 0002:000011a4       $unwind$__scrt_acquire_startup_lock 00000001800121a4     MSVCRT:utility.obj
+ 0002:000011ac       $unwind$__scrt_release_startup_lock 00000001800121ac     MSVCRT:utility.obj
+ 0002:000011b4       $unwind$__scrt_initialize_crt 00000001800121b4     MSVCRT:utility.obj
+ 0002:000011bc       $unwind$__scrt_uninitialize_crt 00000001800121bc     MSVCRT:utility.obj
+ 0002:000011c4       $unwind$__scrt_initialize_onexit_tables 00000001800121c4     MSVCRT:utility.obj
+ 0002:000011cc       $unwind$__scrt_dllmain_exception_filter 00000001800121cc     MSVCRT:utility.obj
+ 0002:000011e0       $unwind$__scrt_dllmain_before_initialize_c 00000001800121e0     MSVCRT:utility.obj
+ 0002:000011e8       $unwind$__scrt_dllmain_after_initialize_c 00000001800121e8     MSVCRT:utility.obj
+ 0002:000011f0       $unwind$__scrt_dllmain_uninitialize_c 00000001800121f0     MSVCRT:utility.obj
+ 0002:000011f8       $unwind$__scrt_dllmain_uninitialize_critical 00000001800121f8     MSVCRT:utility.obj
+ 0002:00001200       $unwind$__scrt_dllmain_crt_thread_attach 0000000180012200     MSVCRT:utility.obj
+ 0002:00001208       $unwind$__scrt_dllmain_crt_thread_detach 0000000180012208     MSVCRT:utility.obj
+ 0002:00001210       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000180012210     MSVCRT:utility.obj
+ 0002:00001218       $unwind$__scrt_get_show_window_mode 0000000180012218     MSVCRT:utility_desktop.obj
+ 0002:00001220       $unwind$__scrt_is_managed_app 0000000180012220     MSVCRT:utility_desktop.obj
+ 0002:00001228       $unwind$__scrt_fastfail    0000000180012228     MSVCRT:utility_desktop.obj
+ 0002:00001238       $unwind$__scrt_unhandled_exception_filter 0000000180012238     MSVCRT:utility_desktop.obj
+ 0002:00001240       $unwind$_RTC_Initialize    0000000180012240     MSVCRT:initsect.obj
+ 0002:0000124c       $unwind$_RTC_Terminate     000000018001224c     MSVCRT:initsect.obj
+ 0002:00001258       $unwind$__isa_available_init 0000000180012258     MSVCRT:cpu_disp.obj
+ 0002:00001268       $xdatasym                  0000000180012268     MSVCRT:guard_dispatch.obj
+ 0002:00001270       .edata                     0000000180012270     motor_model_updated_sfun.exp
+ 0002:00001298       rgpv                       0000000180012298     motor_model_updated_sfun.exp
+ 0002:000012a0       rgszName                   00000001800122a0     motor_model_updated_sfun.exp
+ 0002:000012a8       rgwOrd                     00000001800122a8     motor_model_updated_sfun.exp
+ 0002:000012ac       szName                     00000001800122ac     motor_model_updated_sfun.exp
+ 0002:000012cc       $N00001                    00000001800122cc     motor_model_updated_sfun.exp
+ 0002:000012d8       $N00002                    00000001800122d8     motor_model_updated_sfun.exp
+ 0002:00001b8e       .idata$6                   0000000180012b8e     sf_runtime:sf_runtime.dll
+ 0002:00001d18       .idata$6                   0000000180012d18     libmx:libmx.dll
+ 0002:00001dac       .idata$6                   0000000180012dac     libmex:libmex.dll
+ 0002:00001dce       .idata$6                   0000000180012dce     libut:libut.dll
+ 0002:00001df8       .idata$6                   0000000180012df8     libemlrt:libemlrt.dll
+ 0002:00001ed8       .idata$6                   0000000180012ed8     libcovrt:libcovrt.dll
+ 0002:00002072       .idata$6                   0000000180013072     kernel32:KERNEL32.dll
+ 0002:000020cc       .idata$6                   00000001800130cc     vcruntime:VCRUNTIME140.dll
+ 0002:0000221a       .idata$6                   000000018001321a     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000223c       .idata$6                   000000018001323c     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000225c       .idata$6                   000000018001325c     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:0000227c       .idata$6                   000000018001327c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0003:00000000       $SG23103                   0000000180014000     motor_model_updated_sfun.obj
+ 0003:00000018       $SG23108                   0000000180014018     motor_model_updated_sfun.obj
+ 0003:00000020       $SG23111                   0000000180014020     motor_model_updated_sfun.obj
+ 0003:00000028       $SG23117                   0000000180014028     motor_model_updated_sfun.obj
+ 0003:00000030       $SG23151                   0000000180014030     motor_model_updated_sfun.obj
+ 0003:00000050       $SG23154                   0000000180014050     motor_model_updated_sfun.obj
+ 0003:00000068       $SG23157                   0000000180014068     motor_model_updated_sfun.obj
+ 0003:00000080       $SG23188                   0000000180014080     motor_model_updated_sfun.obj
+ 0003:000000a0       $SG23191                   00000001800140a0     motor_model_updated_sfun.obj
+ 0003:000000b8       $SG23194                   00000001800140b8     motor_model_updated_sfun.obj
+ 0003:000000d0       $SG23225                   00000001800140d0     motor_model_updated_sfun.obj
+ 0003:000000e8       $SG23228                   00000001800140e8     motor_model_updated_sfun.obj
+ 0003:00000100       $SG23231                   0000000180014100     motor_model_updated_sfun.obj
+ 0003:00000118       $SG23264                   0000000180014118     motor_model_updated_sfun.obj
+ 0003:00000130       $SG23267                   0000000180014130     motor_model_updated_sfun.obj
+ 0003:00000148       $SG23270                   0000000180014148     motor_model_updated_sfun.obj
+ 0003:00000160       $SG23301                   0000000180014160     motor_model_updated_sfun.obj
+ 0003:00000180       $SG23304                   0000000180014180     motor_model_updated_sfun.obj
+ 0003:00000198       $SG23307                   0000000180014198     motor_model_updated_sfun.obj
+ 0003:000001b0       $SG23333                   00000001800141b0     motor_model_updated_sfun.obj
+ 0003:000001c8       $SG23334                   00000001800141c8     motor_model_updated_sfun.obj
+ 0003:000001e0       $SG22984                   00000001800141e0     c5_motor_model_updated.obj
+ 0003:00000218       $SG22985                   0000000180014218     c5_motor_model_updated.obj
+ 0003:00000234       $SG23011                   0000000180014234     c5_motor_model_updated.obj
+ 0003:0000023c       $SG23047                   000000018001423c     c5_motor_model_updated.obj
+ 0003:00000240       $SG22987                   0000000180014240     c5_motor_model_updated.obj
+ 0003:00000278       $SG22988                   0000000180014278     c5_motor_model_updated.obj
+ 0003:00000294       $SG23014                   0000000180014294     c5_motor_model_updated.obj
+ 0003:0000029c       $SG23053                   000000018001429c     c5_motor_model_updated.obj
+ 0003:000002a0       $SG22990                   00000001800142a0     c5_motor_model_updated.obj
+ 0003:000002a8       $SG22993                   00000001800142a8     c5_motor_model_updated.obj
+ 0003:000002b0       $SG22991                   00000001800142b0     c5_motor_model_updated.obj
+ 0003:00000320       $SG22994                   0000000180014320     c5_motor_model_updated.obj
+ 0003:00000390       $SG22996                   0000000180014390     c5_motor_model_updated.obj
+ 0003:00000398       $SG22999                   0000000180014398     c5_motor_model_updated.obj
+ 0003:000003a0       $SG22997                   00000001800143a0     c5_motor_model_updated.obj
+ 0003:00000410       $SG23000                   0000000180014410     c5_motor_model_updated.obj
+ 0003:00000480       $SG23002                   0000000180014480     c5_motor_model_updated.obj
+ 0003:00000488       $SG23005                   0000000180014488     c5_motor_model_updated.obj
+ 0003:00000490       $SG23003                   0000000180014490     c5_motor_model_updated.obj
+ 0003:00000500       $SG23006                   0000000180014500     c5_motor_model_updated.obj
+ 0003:00000570       $SG23008                   0000000180014570     c5_motor_model_updated.obj
+ 0003:00000578       $SG23017                   0000000180014578     c5_motor_model_updated.obj
+ 0003:00000580       $SG23009                   0000000180014580     c5_motor_model_updated.obj
+ 0003:000005f0       $SG23012                   00000001800145f0     c5_motor_model_updated.obj
+ 0003:00000668       $SG23020                   0000000180014668     c5_motor_model_updated.obj
+ 0003:00000670       $SG23015                   0000000180014670     c5_motor_model_updated.obj
+ 0003:000006e8       $SG23023                   00000001800146e8     c5_motor_model_updated.obj
+ 0003:000006f0       $SG23018                   00000001800146f0     c5_motor_model_updated.obj
+ 0003:00000768       $SG23029                   0000000180014768     c5_motor_model_updated.obj
+ 0003:00000770       $SG23021                   0000000180014770     c5_motor_model_updated.obj
+ 0003:000007e8       $SG23032                   00000001800147e8     c5_motor_model_updated.obj
+ 0003:00000800       $SG23024                   0000000180014800     c5_motor_model_updated.obj
+ 0003:00000878       $SG23026                   0000000180014878     c5_motor_model_updated.obj
+ 0003:00000884       $SG23059                   0000000180014884     c5_motor_model_updated.obj
+ 0003:00000890       $SG23027                   0000000180014890     c5_motor_model_updated.obj
+ 0003:00000910       $SG23030                   0000000180014910     c5_motor_model_updated.obj
+ 0003:00000988       $SG23038                   0000000180014988     c5_motor_model_updated.obj
+ 0003:000009a0       $SG23033                   00000001800149a0     c5_motor_model_updated.obj
+ 0003:00000a28       $SG23035                   0000000180014a28     c5_motor_model_updated.obj
+ 0003:00000a38       $SG23041                   0000000180014a38     c5_motor_model_updated.obj
+ 0003:00000a48       $SG23065                   0000000180014a48     c5_motor_model_updated.obj
+ 0003:00000a50       $SG23036                   0000000180014a50     c5_motor_model_updated.obj
+ 0003:00000ad8       $SG23044                   0000000180014ad8     c5_motor_model_updated.obj
+ 0003:00000ae8       $SG23056                   0000000180014ae8     c5_motor_model_updated.obj
+ 0003:00000af8       $SG23068                   0000000180014af8     c5_motor_model_updated.obj
+ 0003:00000b00       $SG23039                   0000000180014b00     c5_motor_model_updated.obj
+ 0003:00000b88       $SG23071                   0000000180014b88     c5_motor_model_updated.obj
+ 0003:00000b90       $SG23042                   0000000180014b90     c5_motor_model_updated.obj
+ 0003:00000c20       $SG23045                   0000000180014c20     c5_motor_model_updated.obj
+ 0003:00000cb0       $SG23048                   0000000180014cb0     c5_motor_model_updated.obj
+ 0003:00000d30       $SG23050                   0000000180014d30     c5_motor_model_updated.obj
+ 0003:00000d40       $SG23051                   0000000180014d40     c5_motor_model_updated.obj
+ 0003:00000dc0       $SG23054                   0000000180014dc0     c5_motor_model_updated.obj
+ 0003:00000e40       $SG23057                   0000000180014e40     c5_motor_model_updated.obj
+ 0003:00000ed0       $SG23060                   0000000180014ed0     c5_motor_model_updated.obj
+ 0003:00000f60       $SG23062                   0000000180014f60     c5_motor_model_updated.obj
+ 0003:00000f70       $SG23063                   0000000180014f70     c5_motor_model_updated.obj
+ 0003:00000ff0       $SG23066                   0000000180014ff0     c5_motor_model_updated.obj
+ 0003:00001070       $SG23069                   0000000180015070     c5_motor_model_updated.obj
+ 0003:000010f0       $SG23072                   00000001800150f0     c5_motor_model_updated.obj
+ 0003:00001168       $SG23198                   0000000180015168     c5_motor_model_updated.obj
+ 0003:0000116c       $SG23199                   000000018001516c     c5_motor_model_updated.obj
+ 0003:00001170       $SG23206                   0000000180015170     c5_motor_model_updated.obj
+ 0003:00001178       $SG23207                   0000000180015178     c5_motor_model_updated.obj
+ 0003:000011a0       $SG23259                   00000001800151a0     c5_motor_model_updated.obj
+ 0003:000011b0       $SG23274                   00000001800151b0     c5_motor_model_updated.obj
+ 0003:000012b4       $SG23363                   00000001800152b4     c5_motor_model_updated.obj
+ 0003:000012c0       $SG23276                   00000001800152c0     c5_motor_model_updated.obj
+ 0003:000013c8       $SG23389                   00000001800153c8     c5_motor_model_updated.obj
+ 0003:000013e8       $SG23390                   00000001800153e8     c5_motor_model_updated.obj
+ 0003:00001410       $SG23278                   0000000180015410     c5_motor_model_updated.obj
+ 0003:00001518       $SG23391                   0000000180015518     c5_motor_model_updated.obj
+ 0003:00001544       $SG23412                   0000000180015544     c5_motor_model_updated.obj
+ 0003:00001550       $SG23280                   0000000180015550     c5_motor_model_updated.obj
+ 0003:00001658       $SG23403                   0000000180015658     c5_motor_model_updated.obj
+ 0003:00001668       $SG23405                   0000000180015668     c5_motor_model_updated.obj
+ 0003:00001678       $SG23407                   0000000180015678     c5_motor_model_updated.obj
+ 0003:00001690       $SG23282                   0000000180015690     c5_motor_model_updated.obj
+ 0003:00001798       $SG23409                   0000000180015798     c5_motor_model_updated.obj
+ 0003:000017b0       $SG23284                   00000001800157b0     c5_motor_model_updated.obj
+ 0003:000018b8       $SG23411                   00000001800158b8     c5_motor_model_updated.obj
+ 0003:000018d0       $SG23286                   00000001800158d0     c5_motor_model_updated.obj
+ 0003:000019d8       $SG23413                   00000001800159d8     c5_motor_model_updated.obj
+ 0003:000019f0       $SG23288                   00000001800159f0     c5_motor_model_updated.obj
+ 0003:00001af8       $SG23416                   0000000180015af8     c5_motor_model_updated.obj
+ 0003:00001b08       $SG23431                   0000000180015b08     c5_motor_model_updated.obj
+ 0003:00001b10       $SG23290                   0000000180015b10     c5_motor_model_updated.obj
+ 0003:00001c18       $SG23429                   0000000180015c18     c5_motor_model_updated.obj
+ 0003:00001c28       $SG23570                   0000000180015c28     c5_motor_model_updated.obj
+ 0003:00001c38       $SG23571                   0000000180015c38     c5_motor_model_updated.obj
+ 0003:00001c50       $SG23292                   0000000180015c50     c5_motor_model_updated.obj
+ 0003:00001d58       $SG23594                   0000000180015d58     c5_motor_model_updated.obj
+ 0003:00001d90       $SG23294                   0000000180015d90     c5_motor_model_updated.obj
+ 0003:00001ea0       $SG23296                   0000000180015ea0     c5_motor_model_updated.obj
+ 0003:00001fb0       $SG23298                   0000000180015fb0     c5_motor_model_updated.obj
+ 0003:000020c0       $SG23300                   00000001800160c0     c5_motor_model_updated.obj
+ 0003:000021d0       $SG23302                   00000001800161d0     c5_motor_model_updated.obj
+ 0003:000022e0       $SG23304                   00000001800162e0     c5_motor_model_updated.obj
+ 0003:000023f0       $SG23306                   00000001800163f0     c5_motor_model_updated.obj
+ 0003:00002490       $SG23432                   0000000180016490     c5_motor_model_updated.obj
+ 0003:00002570       $SG23527                   0000000180016570     c5_motor_model_updated.obj
+ 0003:000025c0       $SG23529                   00000001800165c0     c5_motor_model_updated.obj
+ 0003:00002610       $SG23531                   0000000180016610     c5_motor_model_updated.obj
+ 0003:00002660       $SG23533                   0000000180016660     c5_motor_model_updated.obj
+ 0003:000026b0       $SG23535                   00000001800166b0     c5_motor_model_updated.obj
+ 0003:00002700       $SG23537                   0000000180016700     c5_motor_model_updated.obj
+ 0003:00002750       $SG23539                   0000000180016750     c5_motor_model_updated.obj
+ 0003:000027a0       $SG23541                   00000001800167a0     c5_motor_model_updated.obj
+ 0003:000027f0       $SG23543                   00000001800167f0     c5_motor_model_updated.obj
+ 0003:00002840       $SG23545                   0000000180016840     c5_motor_model_updated.obj
+ 0003:00002890       $SG23547                   0000000180016890     c5_motor_model_updated.obj
+ 0003:000028e0       $SG23549                   00000001800168e0     c5_motor_model_updated.obj
+ 0003:00002930       $SG23551                   0000000180016930     c5_motor_model_updated.obj
+ 0003:00002980       $SG23553                   0000000180016980     c5_motor_model_updated.obj
+ 0003:000029d0       $SG23555                   00000001800169d0     c5_motor_model_updated.obj
+ 0003:00002a20       $SG23557                   0000000180016a20     c5_motor_model_updated.obj
+ 0003:00002a70       $SG23609                   0000000180016a70     c5_motor_model_updated.obj
+ 0003:00002ae0       $SG22984                   0000000180016ae0     c6_motor_model_updated.obj
+ 0003:00002b18       $SG22985                   0000000180016b18     c6_motor_model_updated.obj
+ 0003:00002b38       $SG22987                   0000000180016b38     c6_motor_model_updated.obj
+ 0003:00002b70       $SG22988                   0000000180016b70     c6_motor_model_updated.obj
+ 0003:00002b8c       $SG23011                   0000000180016b8c     c6_motor_model_updated.obj
+ 0003:00002b94       $SG23047                   0000000180016b94     c6_motor_model_updated.obj
+ 0003:00002b98       $SG22990                   0000000180016b98     c6_motor_model_updated.obj
+ 0003:00002ba0       $SG22991                   0000000180016ba0     c6_motor_model_updated.obj
+ 0003:00002c10       $SG22993                   0000000180016c10     c6_motor_model_updated.obj
+ 0003:00002c18       $SG22996                   0000000180016c18     c6_motor_model_updated.obj
+ 0003:00002c20       $SG22994                   0000000180016c20     c6_motor_model_updated.obj
+ 0003:00002c90       $SG22997                   0000000180016c90     c6_motor_model_updated.obj
+ 0003:00002d00       $SG22999                   0000000180016d00     c6_motor_model_updated.obj
+ 0003:00002d08       $SG23002                   0000000180016d08     c6_motor_model_updated.obj
+ 0003:00002d10       $SG23000                   0000000180016d10     c6_motor_model_updated.obj
+ 0003:00002d80       $SG23003                   0000000180016d80     c6_motor_model_updated.obj
+ 0003:00002df0       $SG23005                   0000000180016df0     c6_motor_model_updated.obj
+ 0003:00002df8       $SG23008                   0000000180016df8     c6_motor_model_updated.obj
+ 0003:00002e00       $SG23006                   0000000180016e00     c6_motor_model_updated.obj
+ 0003:00002e70       $SG23009                   0000000180016e70     c6_motor_model_updated.obj
+ 0003:00002ee0       $SG23012                   0000000180016ee0     c6_motor_model_updated.obj
+ 0003:00002f58       $SG23014                   0000000180016f58     c6_motor_model_updated.obj
+ 0003:00002f60       $SG23015                   0000000180016f60     c6_motor_model_updated.obj
+ 0003:00002fd8       $SG23017                   0000000180016fd8     c6_motor_model_updated.obj
+ 0003:00002fe0       $SG23018                   0000000180016fe0     c6_motor_model_updated.obj
+ 0003:00003058       $SG23020                   0000000180017058     c6_motor_model_updated.obj
+ 0003:00003060       $SG23021                   0000000180017060     c6_motor_model_updated.obj
+ 0003:000030d8       $SG23023                   00000001800170d8     c6_motor_model_updated.obj
+ 0003:000030e0       $SG23024                   00000001800170e0     c6_motor_model_updated.obj
+ 0003:00003158       $SG23026                   0000000180017158     c6_motor_model_updated.obj
+ 0003:00003164       $SG23029                   0000000180017164     c6_motor_model_updated.obj
+ 0003:00003170       $SG23027                   0000000180017170     c6_motor_model_updated.obj
+ 0003:000031f0       $SG23030                   00000001800171f0     c6_motor_model_updated.obj
+ 0003:00003268       $SG23032                   0000000180017268     c6_motor_model_updated.obj
+ 0003:00003280       $SG23033                   0000000180017280     c6_motor_model_updated.obj
+ 0003:00003308       $SG23035                   0000000180017308     c6_motor_model_updated.obj
+ 0003:00003318       $SG23038                   0000000180017318     c6_motor_model_updated.obj
+ 0003:00003330       $SG23036                   0000000180017330     c6_motor_model_updated.obj
+ 0003:000033b8       $SG23041                   00000001800173b8     c6_motor_model_updated.obj
+ 0003:000033c8       $SG23053                   00000001800173c8     c6_motor_model_updated.obj
+ 0003:000033d0       $SG23039                   00000001800173d0     c6_motor_model_updated.obj
+ 0003:00003458       $SG23059                   0000000180017458     c6_motor_model_updated.obj
+ 0003:00003460       $SG23042                   0000000180017460     c6_motor_model_updated.obj
+ 0003:000034e8       $SG23044                   00000001800174e8     c6_motor_model_updated.obj
+ 0003:000034f8       $SG23056                   00000001800174f8     c6_motor_model_updated.obj
+ 0003:00003508       $SG23065                   0000000180017508     c6_motor_model_updated.obj
+ 0003:00003510       $SG23045                   0000000180017510     c6_motor_model_updated.obj
+ 0003:000035a0       $SG23048                   00000001800175a0     c6_motor_model_updated.obj
+ 0003:00003620       $SG23050                   0000000180017620     c6_motor_model_updated.obj
+ 0003:00003630       $SG23051                   0000000180017630     c6_motor_model_updated.obj
+ 0003:000036b0       $SG23054                   00000001800176b0     c6_motor_model_updated.obj
+ 0003:00003730       $SG23057                   0000000180017730     c6_motor_model_updated.obj
+ 0003:000037c0       $SG23060                   00000001800177c0     c6_motor_model_updated.obj
+ 0003:00003850       $SG23062                   0000000180017850     c6_motor_model_updated.obj
+ 0003:00003860       $SG23063                   0000000180017860     c6_motor_model_updated.obj
+ 0003:000038e0       $SG23066                   00000001800178e0     c6_motor_model_updated.obj
+ 0003:0000395c       $SG23068                   000000018001795c     c6_motor_model_updated.obj
+ 0003:00003964       $SG23071                   0000000180017964     c6_motor_model_updated.obj
+ 0003:00003970       $SG23069                   0000000180017970     c6_motor_model_updated.obj
+ 0003:000039f0       $SG23072                   00000001800179f0     c6_motor_model_updated.obj
+ 0003:00003a68       $SG23198                   0000000180017a68     c6_motor_model_updated.obj
+ 0003:00003a6c       $SG23199                   0000000180017a6c     c6_motor_model_updated.obj
+ 0003:00003a70       $SG23206                   0000000180017a70     c6_motor_model_updated.obj
+ 0003:00003a78       $SG23207                   0000000180017a78     c6_motor_model_updated.obj
+ 0003:00003aa0       $SG23259                   0000000180017aa0     c6_motor_model_updated.obj
+ 0003:00003ab0       $SG23274                   0000000180017ab0     c6_motor_model_updated.obj
+ 0003:00003bb4       $SG23363                   0000000180017bb4     c6_motor_model_updated.obj
+ 0003:00003bc0       $SG23276                   0000000180017bc0     c6_motor_model_updated.obj
+ 0003:00003cc8       $SG23389                   0000000180017cc8     c6_motor_model_updated.obj
+ 0003:00003ce8       $SG23390                   0000000180017ce8     c6_motor_model_updated.obj
+ 0003:00003d10       $SG23278                   0000000180017d10     c6_motor_model_updated.obj
+ 0003:00003e18       $SG23391                   0000000180017e18     c6_motor_model_updated.obj
+ 0003:00003e44       $SG23412                   0000000180017e44     c6_motor_model_updated.obj
+ 0003:00003e50       $SG23280                   0000000180017e50     c6_motor_model_updated.obj
+ 0003:00003f58       $SG23403                   0000000180017f58     c6_motor_model_updated.obj
+ 0003:00003f68       $SG23405                   0000000180017f68     c6_motor_model_updated.obj
+ 0003:00003f78       $SG23407                   0000000180017f78     c6_motor_model_updated.obj
+ 0003:00003f90       $SG23282                   0000000180017f90     c6_motor_model_updated.obj
+ 0003:00004098       $SG23409                   0000000180018098     c6_motor_model_updated.obj
+ 0003:000040b0       $SG23284                   00000001800180b0     c6_motor_model_updated.obj
+ 0003:000041b8       $SG23411                   00000001800181b8     c6_motor_model_updated.obj
+ 0003:000041d0       $SG23286                   00000001800181d0     c6_motor_model_updated.obj
+ 0003:000042d8       $SG23413                   00000001800182d8     c6_motor_model_updated.obj
+ 0003:000042f0       $SG23288                   00000001800182f0     c6_motor_model_updated.obj
+ 0003:000043f8       $SG23416                   00000001800183f8     c6_motor_model_updated.obj
+ 0003:00004408       $SG23431                   0000000180018408     c6_motor_model_updated.obj
+ 0003:00004410       $SG23290                   0000000180018410     c6_motor_model_updated.obj
+ 0003:00004518       $SG23429                   0000000180018518     c6_motor_model_updated.obj
+ 0003:00004528       $SG23570                   0000000180018528     c6_motor_model_updated.obj
+ 0003:00004538       $SG23571                   0000000180018538     c6_motor_model_updated.obj
+ 0003:00004550       $SG23292                   0000000180018550     c6_motor_model_updated.obj
+ 0003:00004658       $SG23594                   0000000180018658     c6_motor_model_updated.obj
+ 0003:00004690       $SG23294                   0000000180018690     c6_motor_model_updated.obj
+ 0003:000047a0       $SG23296                   00000001800187a0     c6_motor_model_updated.obj
+ 0003:000048b0       $SG23298                   00000001800188b0     c6_motor_model_updated.obj
+ 0003:000049c0       $SG23300                   00000001800189c0     c6_motor_model_updated.obj
+ 0003:00004ad0       $SG23302                   0000000180018ad0     c6_motor_model_updated.obj
+ 0003:00004be0       $SG23304                   0000000180018be0     c6_motor_model_updated.obj
+ 0003:00004cf0       $SG23306                   0000000180018cf0     c6_motor_model_updated.obj
+ 0003:00004d90       $SG23432                   0000000180018d90     c6_motor_model_updated.obj
+ 0003:00004e70       $SG23527                   0000000180018e70     c6_motor_model_updated.obj
+ 0003:00004ec0       $SG23529                   0000000180018ec0     c6_motor_model_updated.obj
+ 0003:00004f10       $SG23531                   0000000180018f10     c6_motor_model_updated.obj
+ 0003:00004f60       $SG23533                   0000000180018f60     c6_motor_model_updated.obj
+ 0003:00004fb0       $SG23535                   0000000180018fb0     c6_motor_model_updated.obj
+ 0003:00005000       $SG23537                   0000000180019000     c6_motor_model_updated.obj
+ 0003:00005050       $SG23539                   0000000180019050     c6_motor_model_updated.obj
+ 0003:000050a0       $SG23541                   00000001800190a0     c6_motor_model_updated.obj
+ 0003:000050f0       $SG23543                   00000001800190f0     c6_motor_model_updated.obj
+ 0003:00005140       $SG23545                   0000000180019140     c6_motor_model_updated.obj
+ 0003:00005190       $SG23547                   0000000180019190     c6_motor_model_updated.obj
+ 0003:000051e0       $SG23549                   00000001800191e0     c6_motor_model_updated.obj
+ 0003:00005230       $SG23551                   0000000180019230     c6_motor_model_updated.obj
+ 0003:00005280       $SG23553                   0000000180019280     c6_motor_model_updated.obj
+ 0003:000052d0       $SG23555                   00000001800192d0     c6_motor_model_updated.obj
+ 0003:00005320       $SG23557                   0000000180019320     c6_motor_model_updated.obj
+ 0003:00005370       $SG23609                   0000000180019370     c6_motor_model_updated.obj
+ 0003:000053e8       $SG22962                   00000001800193e8     motor_model_updated_sfun_registry.obj
+ 0003:00005408       $SG22964                   0000000180019408     motor_model_updated_sfun_registry.obj
+ 0003:0000541c       $SG24919                   000000018001941c     motor_model_updated_sfun_registry.obj
+ 0003:00005420       $SG23000                   0000000180019420     motor_model_updated_sfun_registry.obj
+ 0003:00005438       $SG23002                   0000000180019438     motor_model_updated_sfun_registry.obj
+ 0003:0000544c       $SG24997                   000000018001944c     motor_model_updated_sfun_registry.obj
+ 0003:00005450       $SG23038                   0000000180019450     motor_model_updated_sfun_registry.obj
+ 0003:00005468       $SG23040                   0000000180019468     motor_model_updated_sfun_registry.obj
+ 0003:00005480       $SG23076                   0000000180019480     motor_model_updated_sfun_registry.obj
+ 0003:000054a0       $SG23078                   00000001800194a0     motor_model_updated_sfun_registry.obj
+ 0003:000054b8       $SG23114                   00000001800194b8     motor_model_updated_sfun_registry.obj
+ 0003:000054d8       $SG23116                   00000001800194d8     motor_model_updated_sfun_registry.obj
+ 0003:000054f0       $SG23136                   00000001800194f0     motor_model_updated_sfun_registry.obj
+ 0003:00005500       $SG23154                   0000000180019500     motor_model_updated_sfun_registry.obj
+ 0003:00005518       $SG23185                   0000000180019518     motor_model_updated_sfun_registry.obj
+ 0003:0000552c       $SG23285                   000000018001952c     motor_model_updated_sfun_registry.obj
+ 0003:00005538       $SG23286                   0000000180019538     motor_model_updated_sfun_registry.obj
+ 0003:0000554c       $SG23291                   000000018001954c     motor_model_updated_sfun_registry.obj
+ 0003:00005558       $SG23292                   0000000180019558     motor_model_updated_sfun_registry.obj
+ 0003:00005578       $SG23433                   0000000180019578     motor_model_updated_sfun_registry.obj
+ 0003:000055a0       _sfcnName                  00000001800195a0     motor_model_updated_sfun_registry.obj
+ 0003:000055c0       $SG23450                   00000001800195c0     motor_model_updated_sfun_registry.obj
+ 0003:00005638       $SG23773                   0000000180019638     motor_model_updated_sfun_registry.obj
+ 0003:00005640       $SG23774                   0000000180019640     motor_model_updated_sfun_registry.obj
+ 0003:00005648       $SG23788                   0000000180019648     motor_model_updated_sfun_registry.obj
+ 0003:00005658       $SG23978                   0000000180019658     motor_model_updated_sfun_registry.obj
+ 0003:00005698       $SG23979                   0000000180019698     motor_model_updated_sfun_registry.obj
+ 0003:000056a0       $SG23980                   00000001800196a0     motor_model_updated_sfun_registry.obj
+ 0003:000056a8       $SG23985                   00000001800196a8     motor_model_updated_sfun_registry.obj
+ 0003:000056b0       $SG23984                   00000001800196b0     motor_model_updated_sfun_registry.obj
+ 0003:000056f8       $SG23986                   00000001800196f8     motor_model_updated_sfun_registry.obj
+ 0003:00005700       $SG23987                   0000000180019700     motor_model_updated_sfun_registry.obj
+ 0003:00005758       $SG23988                   0000000180019758     motor_model_updated_sfun_registry.obj
+ 0003:00005760       $SG23989                   0000000180019760     motor_model_updated_sfun_registry.obj
+ 0003:00005768       $SG24011                   0000000180019768     motor_model_updated_sfun_registry.obj
+ 0003:000057a8       $SG24012                   00000001800197a8     motor_model_updated_sfun_registry.obj
+ 0003:000057b0       $SG24013                   00000001800197b0     motor_model_updated_sfun_registry.obj
+ 0003:000057b8       $SG24018                   00000001800197b8     motor_model_updated_sfun_registry.obj
+ 0003:000057c0       $SG24017                   00000001800197c0     motor_model_updated_sfun_registry.obj
+ 0003:00005808       $SG24019                   0000000180019808     motor_model_updated_sfun_registry.obj
+ 0003:00005810       $SG24020                   0000000180019810     motor_model_updated_sfun_registry.obj
+ 0003:00005868       $SG24021                   0000000180019868     motor_model_updated_sfun_registry.obj
+ 0003:00005870       $SG24022                   0000000180019870     motor_model_updated_sfun_registry.obj
+ 0003:00005878       $SG24038                   0000000180019878     motor_model_updated_sfun_registry.obj
+ 0003:00005880       $SG24037                   0000000180019880     motor_model_updated_sfun_registry.obj
+ 0003:000058d0       $SG24039                   00000001800198d0     motor_model_updated_sfun_registry.obj
+ 0003:000058d8       $SG24052                   00000001800198d8     motor_model_updated_sfun_registry.obj
+ 0003:000058e0       $SG24051                   00000001800198e0     motor_model_updated_sfun_registry.obj
+ 0003:00005940       $SG24053                   0000000180019940     motor_model_updated_sfun_registry.obj
+ 0003:00005948       $SG24066                   0000000180019948     motor_model_updated_sfun_registry.obj
+ 0003:00005950       $SG24065                   0000000180019950     motor_model_updated_sfun_registry.obj
+ 0003:000059b0       $SG24067                   00000001800199b0     motor_model_updated_sfun_registry.obj
+ 0003:000059b8       $SG24904                   00000001800199b8     motor_model_updated_sfun_registry.obj
+ 0003:000059d0       $SG24282                   00000001800199d0     motor_model_updated_sfun_registry.obj
+ 0003:00005a48       $SG24971                   0000000180019a48     motor_model_updated_sfun_registry.obj
+ 0003:00005a50       $SG24285                   0000000180019a50     motor_model_updated_sfun_registry.obj
+ 0003:00005ac4       $SG24972                   0000000180019ac4     motor_model_updated_sfun_registry.obj
+ 0003:00005ad0       $SG24290                   0000000180019ad0     motor_model_updated_sfun_registry.obj
+ 0003:00005b48       $SG24973                   0000000180019b48     motor_model_updated_sfun_registry.obj
+ 0003:00005b50       $SG24298                   0000000180019b50     motor_model_updated_sfun_registry.obj
+ 0003:00005bc0       $SG24573                   0000000180019bc0     motor_model_updated_sfun_registry.obj
+ 0003:00005c38       $SG24979                   0000000180019c38     motor_model_updated_sfun_registry.obj
+ 0003:00005c40       $SG24578                   0000000180019c40     motor_model_updated_sfun_registry.obj
+ 0003:00005cb8       $SG24982                   0000000180019cb8     motor_model_updated_sfun_registry.obj
+ 0003:00005cc0       $SG24916                   0000000180019cc0     motor_model_updated_sfun_registry.obj
+ 0003:00005d38       $SG24985                   0000000180019d38     motor_model_updated_sfun_registry.obj
+ 0003:00005d40       $SG24974                   0000000180019d40     motor_model_updated_sfun_registry.obj
+ 0003:00005db8       $SG24991                   0000000180019db8     motor_model_updated_sfun_registry.obj
+ 0003:00005dc0       $SG24976                   0000000180019dc0     motor_model_updated_sfun_registry.obj
+ 0003:00005e40       $SG24986                   0000000180019e40     motor_model_updated_sfun_registry.obj
+ 0003:00005ec0       $SG24987                   0000000180019ec0     motor_model_updated_sfun_registry.obj
+ 0003:00005ed0       $SG24989                   0000000180019ed0     motor_model_updated_sfun_registry.obj
+ 0003:00005edc       $SG24993                   0000000180019edc     motor_model_updated_sfun_registry.obj
+ 0003:00005ee8       $SG24995                   0000000180019ee8     motor_model_updated_sfun_registry.obj
+ 0003:00005ef8       $SG25105                   0000000180019ef8     motor_model_updated_sfun_registry.obj
+ 0003:00005f28       $SG25106                   0000000180019f28     motor_model_updated_sfun_registry.obj
+ 0003:00005f30       $SG25000                   0000000180019f30     motor_model_updated_sfun_registry.obj
+ 0003:00006018       $SG25107                   000000018001a018     motor_model_updated_sfun_registry.obj
+ 0003:00006020       $SG25109                   000000018001a020     motor_model_updated_sfun_registry.obj
+ 0003:00006058       $SG25110                   000000018001a058     motor_model_updated_sfun_registry.obj
+ 0003:00006060       $SG25111                   000000018001a060     motor_model_updated_sfun_registry.obj
+ 0003:00006068       $SG25114                   000000018001a068     motor_model_updated_sfun_registry.obj
+ 0003:000060a0       $SG25115                   000000018001a0a0     motor_model_updated_sfun_registry.obj
+ 0003:000060a8       $SG25116                   000000018001a0a8     motor_model_updated_sfun_registry.obj
+ 0003:000060b0       $SG25118                   000000018001a0b0     motor_model_updated_sfun_registry.obj
+ 0003:000060e8       $SG25119                   000000018001a0e8     motor_model_updated_sfun_registry.obj
+ 0003:000060f0       $SG25120                   000000018001a0f0     motor_model_updated_sfun_registry.obj
+ 0003:000060f8       $SG25122                   000000018001a0f8     motor_model_updated_sfun_registry.obj
+ 0003:00006130       $SG25123                   000000018001a130     motor_model_updated_sfun_registry.obj
+ 0003:00006138       $SG25124                   000000018001a138     motor_model_updated_sfun_registry.obj
+ 0003:00006140       $SG25127                   000000018001a140     motor_model_updated_sfun_registry.obj
+ 0003:00006148       $SG25129                   000000018001a148     motor_model_updated_sfun_registry.obj
+ 0003:00006160       $SG25130                   000000018001a160     motor_model_updated_sfun_registry.obj
+ 0003:00006198       $SG25131                   000000018001a198     motor_model_updated_sfun_registry.obj
+ 0003:000061a0       $SG25132                   000000018001a1a0     motor_model_updated_sfun_registry.obj
+ 0003:000061a8       $SG25298                   000000018001a1a8     motor_model_updated_sfun_registry.obj
+ 0003:000061c8       $SG25303                   000000018001a1c8     motor_model_updated_sfun_registry.obj
+ 0003:000061e0       $SG25299                   000000018001a1e0     motor_model_updated_sfun_registry.obj
+ 0003:00006270       $SG25304                   000000018001a270     motor_model_updated_sfun_registry.obj
+ 0003:00006300       $SG25308                   000000018001a300     motor_model_updated_sfun_registry.obj
+ 0003:00006318       $SG25323                   000000018001a318     motor_model_updated_sfun_registry.obj
+ 0003:00006338       $SG25328                   000000018001a338     motor_model_updated_sfun_registry.obj
+ 0003:00006360       $SG25309                   000000018001a360     motor_model_updated_sfun_registry.obj
+ 0003:000063f0       $SG25313                   000000018001a3f0     motor_model_updated_sfun_registry.obj
+ 0003:00006410       $SG25314                   000000018001a410     motor_model_updated_sfun_registry.obj
+ 0003:000064a0       $SG25318                   000000018001a4a0     motor_model_updated_sfun_registry.obj
+ 0003:000064c0       $SG25319                   000000018001a4c0     motor_model_updated_sfun_registry.obj
+ 0003:00006550       $SG25324                   000000018001a550     motor_model_updated_sfun_registry.obj
+ 0003:000065e0       $SG25329                   000000018001a5e0     motor_model_updated_sfun_registry.obj
+ 0003:00006670       $SG25333                   000000018001a670     motor_model_updated_sfun_registry.obj
+ 0003:00006698       $SG25348                   000000018001a698     motor_model_updated_sfun_registry.obj
+ 0003:000066b0       $SG25334                   000000018001a6b0     motor_model_updated_sfun_registry.obj
+ 0003:00006740       $SG25338                   000000018001a740     motor_model_updated_sfun_registry.obj
+ 0003:00006760       $SG25339                   000000018001a760     motor_model_updated_sfun_registry.obj
+ 0003:000067f0       $SG25343                   000000018001a7f0     motor_model_updated_sfun_registry.obj
+ 0003:00006810       $SG25344                   000000018001a810     motor_model_updated_sfun_registry.obj
+ 0003:000068a0       $SG25349                   000000018001a8a0     motor_model_updated_sfun_registry.obj
+ 0003:00006930       $SG25353                   000000018001a930     motor_model_updated_sfun_registry.obj
+ 0003:00006950       $SG25354                   000000018001a950     motor_model_updated_sfun_registry.obj
+ 0003:000069e0       $SG25358                   000000018001a9e0     motor_model_updated_sfun_registry.obj
+ 0003:00006a00       $SG25359                   000000018001aa00     motor_model_updated_sfun_registry.obj
+ 0003:00006a90       $SG25363                   000000018001aa90     motor_model_updated_sfun_registry.obj
+ 0003:00006ab0       $SG25364                   000000018001aab0     motor_model_updated_sfun_registry.obj
+ 0003:00006b40       $SG25368                   000000018001ab40     motor_model_updated_sfun_registry.obj
+ 0003:00006b60       $SG25369                   000000018001ab60     motor_model_updated_sfun_registry.obj
+ 0003:00006bf0       $SG25373                   000000018001abf0     motor_model_updated_sfun_registry.obj
+ 0003:00006c10       $SG25374                   000000018001ac10     motor_model_updated_sfun_registry.obj
+ 0003:00006ca0       $SG25378                   000000018001aca0     motor_model_updated_sfun_registry.obj
+ 0003:00006cc0       $SG25379                   000000018001acc0     motor_model_updated_sfun_registry.obj
+ 0003:00006d50       $SG25384                   000000018001ad50     motor_model_updated_sfun_registry.obj
+ 0003:00006d64       $SG25389                   000000018001ad64     motor_model_updated_sfun_registry.obj
+ 0003:00006d70       $SG25385                   000000018001ad70     motor_model_updated_sfun_registry.obj
+ 0003:00006e00       $SG25390                   000000018001ae00     motor_model_updated_sfun_registry.obj
+ 0003:00006e90       $SG25394                   000000018001ae90     motor_model_updated_sfun_registry.obj
+ 0003:00006ea8       $SG25424                   000000018001aea8     motor_model_updated_sfun_registry.obj
+ 0003:00006ec0       $SG25395                   000000018001aec0     motor_model_updated_sfun_registry.obj
+ 0003:00006f50       $SG25399                   000000018001af50     motor_model_updated_sfun_registry.obj
+ 0003:00006f60       $SG25400                   000000018001af60     motor_model_updated_sfun_registry.obj
+ 0003:00006ff0       $SG25404                   000000018001aff0     motor_model_updated_sfun_registry.obj
+ 0003:00007010       $SG25405                   000000018001b010     motor_model_updated_sfun_registry.obj
+ 0003:000070a0       $SG25409                   000000018001b0a0     motor_model_updated_sfun_registry.obj
+ 0003:000070c0       $SG25410                   000000018001b0c0     motor_model_updated_sfun_registry.obj
+ 0003:00007150       $SG25414                   000000018001b150     motor_model_updated_sfun_registry.obj
+ 0003:00007160       $SG25415                   000000018001b160     motor_model_updated_sfun_registry.obj
+ 0003:000071f0       $SG25419                   000000018001b1f0     motor_model_updated_sfun_registry.obj
+ 0003:00007200       $SG25420                   000000018001b200     motor_model_updated_sfun_registry.obj
+ 0003:00007290       $SG25425                   000000018001b290     motor_model_updated_sfun_registry.obj
+ 0003:00007320       $SG25429                   000000018001b320     motor_model_updated_sfun_registry.obj
+ 0003:00007338       $SG25434                   000000018001b338     motor_model_updated_sfun_registry.obj
+ 0003:00007348       $SG25506                   000000018001b348     motor_model_updated_sfun_registry.obj
+ 0003:00007360       $SG25430                   000000018001b360     motor_model_updated_sfun_registry.obj
+ 0003:000073f0       $SG25435                   000000018001b3f0     motor_model_updated_sfun_registry.obj
+ 0003:00007480       $SG25443                   000000018001b480     motor_model_updated_sfun_registry.obj
+ 0003:00007490       $SG25444                   000000018001b490     motor_model_updated_sfun_registry.obj
+ 0003:00007520       $SG25448                   000000018001b520     motor_model_updated_sfun_registry.obj
+ 0003:00007530       $SG25449                   000000018001b530     motor_model_updated_sfun_registry.obj
+ 0003:000075c0       $SG25453                   000000018001b5c0     motor_model_updated_sfun_registry.obj
+ 0003:000075d0       $SG25454                   000000018001b5d0     motor_model_updated_sfun_registry.obj
+ 0003:00007660       $SG25459                   000000018001b660     motor_model_updated_sfun_registry.obj
+ 0003:00007670       $SG25460                   000000018001b670     motor_model_updated_sfun_registry.obj
+ 0003:00007700       $SG25464                   000000018001b700     motor_model_updated_sfun_registry.obj
+ 0003:00007780       $SG25494                   000000018001b780     motor_model_updated_sfun_registry.obj
+ 0003:00007898       $SG25516                   000000018001b898     motor_model_updated_sfun_registry.obj
+ 0003:000078a8       $SG25528                   000000018001b8a8     motor_model_updated_sfun_registry.obj
+ 0003:000078b8       $SG25538                   000000018001b8b8     motor_model_updated_sfun_registry.obj
+ 0003:000078c8       $SG25550                   000000018001b8c8     motor_model_updated_sfun_registry.obj
+ 0003:000078d8       $SG25560                   000000018001b8d8     motor_model_updated_sfun_registry.obj
+ 0003:000078e8       $SG25570                   000000018001b8e8     motor_model_updated_sfun_registry.obj
+ 0003:00007950       sRtwOptimizationInfoStruct 000000018001b950     motor_model_updated_sfun.obj
+ 0003:00007958       sOptimizationInfoFlags     000000018001b958     motor_model_updated_sfun.obj
+ 0003:00007960       _sfTime_                   000000018001b960     c5_motor_model_updated.obj
+ 0003:00007968       $SG23258                   000000018001b968     c5_motor_model_updated.obj
+ 0003:00007969       $SG23308                   000000018001b969     c5_motor_model_updated.obj
+ 0003:0000796a       $SG23414                   000000018001b96a     c5_motor_model_updated.obj
+ 0003:0000796b       $SG23415                   000000018001b96b     c5_motor_model_updated.obj
+ 0003:0000796c       $SG23559                   000000018001b96c     c5_motor_model_updated.obj
+ 0003:00007970       ?newstr@?1??sf_c5_motor_model_updated_get_post_codegen_info@@9@9 000000018001b970     c5_motor_model_updated.obj
+ 0003:00007e20       _sfTime_                   000000018001be20     c6_motor_model_updated.obj
+ 0003:00007e28       $SG23258                   000000018001be28     c6_motor_model_updated.obj
+ 0003:00007e29       $SG23308                   000000018001be29     c6_motor_model_updated.obj
+ 0003:00007e2a       $SG23414                   000000018001be2a     c6_motor_model_updated.obj
+ 0003:00007e2b       $SG23415                   000000018001be2b     c6_motor_model_updated.obj
+ 0003:00007e2c       $SG23559                   000000018001be2c     c6_motor_model_updated.obj
+ 0003:00007e30       ?newstr@?1??sf_c6_motor_model_updated_get_post_codegen_info@@9@9 000000018001be30     c6_motor_model_updated.obj
+ 0003:000082dc       sfGlobalMdlStartCallCounts 000000018001c2dc     motor_model_updated_sfun_registry.obj
+ 0003:000082e0       $SG24967                   000000018001c2e0     motor_model_updated_sfun_registry.obj
+ 0003:00008310       GS_ExceptionRecord         000000018001c310     MSVCRT:gs_report.obj
+ 0003:000083b0       GS_ContextRecord           000000018001c3b0     MSVCRT:gs_report.obj
+ 0003:00008880       ?__proc_attached@@3HA      000000018001c880     MSVCRT:dll_dllmain.obj
+ 0003:000088c0       ?is_initialized_as_dll@@3_NA 000000018001c8c0     MSVCRT:utility.obj
+ 0003:000088c1       ?module_local_atexit_table_initialized@@3_NA 000000018001c8c1     MSVCRT:utility.obj
+ 0003:000088c8       ?module_local_atexit_table@@3U_onexit_table_t@@A 000000018001c8c8     MSVCRT:utility.obj
+ 0003:000088e0       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 000000018001c8e0     MSVCRT:utility.obj
+ 0004:00000000       $pdata$load_motor_model_updated_optimization_info 000000018001d000     motor_model_updated_sfun.obj
+ 0004:0000000c       $pdata$unload_motor_model_updated_optimization_info 000000018001d00c     motor_model_updated_sfun.obj
+ 0004:00000018       $pdata$sf_motor_model_updated_method_dispatcher 000000018001d018     motor_model_updated_sfun.obj
+ 0004:00000024       $pdata$sf_motor_model_updated_process_check_sum_call 000000018001d024     motor_model_updated_sfun.obj
+ 0004:00000030       $pdata$sf_motor_model_updated_get_eml_resolved_functions_info 000000018001d030     motor_model_updated_sfun.obj
+ 0004:0000003c       $pdata$sf_motor_model_updated_third_party_uses_info 000000018001d03c     motor_model_updated_sfun.obj
+ 0004:00000048       $pdata$sf_motor_model_updated_jit_fallback_info 000000018001d048     motor_model_updated_sfun.obj
+ 0004:00000054       $pdata$sf_motor_model_updated_get_post_codegen_info 000000018001d054     motor_model_updated_sfun.obj
+ 0004:00000060       $pdata$sf_motor_model_updated_updateBuildInfo_args_info 000000018001d060     motor_model_updated_sfun.obj
+ 0004:0000006c       $pdata$sf_c5_motor_model_updated_get_eml_resolved_functions_info 000000018001d06c     c5_motor_model_updated.obj
+ 0004:00000078       $pdata$sf_c5_motor_model_updated_get_check_sum 000000018001d078     c5_motor_model_updated.obj
+ 0004:00000084       $pdata$c5_motor_model_updated_method_dispatcher 000000018001d084     c5_motor_model_updated.obj
+ 0004:00000090       $pdata$initialize_c5_motor_model_updated 000000018001d090     c5_motor_model_updated.obj
+ 0004:0000009c       $pdata$enable_c5_motor_model_updated 000000018001d09c     c5_motor_model_updated.obj
+ 0004:000000a8       $pdata$disable_c5_motor_model_updated 000000018001d0a8     c5_motor_model_updated.obj
+ 0004:000000b4       $pdata$c5_do_animation_call_c5_motor_model_updated 000000018001d0b4     c5_motor_model_updated.obj
+ 0004:000000c0       $pdata$get_sim_state_c5_motor_model_updated 000000018001d0c0     c5_motor_model_updated.obj
+ 0004:000000cc       $pdata$set_sim_state_c5_motor_model_updated 000000018001d0cc     c5_motor_model_updated.obj
+ 0004:000000d8       $pdata$sf_gateway_c5_motor_model_updated 000000018001d0d8     c5_motor_model_updated.obj
+ 0004:000000e4       $pdata$mdl_setup_runtime_resources_c5_motor_model_updated 000000018001d0e4     c5_motor_model_updated.obj
+ 0004:000000f0       $pdata$mdl_cleanup_runtime_resources_c5_motor_model_updated 000000018001d0f0     c5_motor_model_updated.obj
+ 0004:000000fc       $pdata$c5_emlrt_marshallIn 000000018001d0fc     c5_motor_model_updated.obj
+ 0004:00000108       $pdata$c5_b_emlrt_marshallIn 000000018001d108     c5_motor_model_updated.obj
+ 0004:00000114       $pdata$c5_c_emlrt_marshallIn 000000018001d114     c5_motor_model_updated.obj
+ 0004:00000120       $pdata$c5_d_emlrt_marshallIn 000000018001d120     c5_motor_model_updated.obj
+ 0004:0000012c       $pdata$c5_chart_data_browse_helper 000000018001d12c     c5_motor_model_updated.obj
+ 0004:00000138       $pdata$init_simulink_io_address 000000018001d138     c5_motor_model_updated.obj
+ 0004:00000144       $pdata$sf_c5_motor_model_updated_third_party_uses_info 000000018001d144     c5_motor_model_updated.obj
+ 0004:00000150       $pdata$sf_c5_motor_model_updated_jit_fallback_info 000000018001d150     c5_motor_model_updated.obj
+ 0004:0000015c       $pdata$sf_c5_motor_model_updated_updateBuildInfo_args_info 000000018001d15c     c5_motor_model_updated.obj
+ 0004:00000168       $pdata$sf_get_sim_state_info_c5_motor_model_updated 000000018001d168     c5_motor_model_updated.obj
+ 0004:00000174       $pdata$sf_opaque_initialize_c5_motor_model_updated 000000018001d174     c5_motor_model_updated.obj
+ 0004:00000180       $pdata$sf_opaque_enable_c5_motor_model_updated 000000018001d180     c5_motor_model_updated.obj
+ 0004:0000018c       $pdata$sf_opaque_disable_c5_motor_model_updated 000000018001d18c     c5_motor_model_updated.obj
+ 0004:00000198       $pdata$sf_opaque_gateway_c5_motor_model_updated 000000018001d198     c5_motor_model_updated.obj
+ 0004:000001a4       $pdata$sf_opaque_get_sim_state_c5_motor_model_updated 000000018001d1a4     c5_motor_model_updated.obj
+ 0004:000001b0       $pdata$sf_opaque_set_sim_state_c5_motor_model_updated 000000018001d1b0     c5_motor_model_updated.obj
+ 0004:000001bc       $pdata$sf_opaque_cleanup_runtime_resources_c5_motor_model_updated 000000018001d1bc     c5_motor_model_updated.obj
+ 0004:000001c8       $pdata$sf_opaque_mdl_start_c5_motor_model_updated 000000018001d1c8     c5_motor_model_updated.obj
+ 0004:000001d4       $pdata$sf_opaque_mdl_terminate_c5_motor_model_updated 000000018001d1d4     c5_motor_model_updated.obj
+ 0004:000001e0       $pdata$mdlProcessParameters_c5_motor_model_updated 000000018001d1e0     c5_motor_model_updated.obj
+ 0004:000001ec       $pdata$sf_c5_motor_model_updated_get_post_codegen_info 000000018001d1ec     c5_motor_model_updated.obj
+ 0004:000001f8       $pdata$mdlSetWorkWidths_c5_motor_model_updated 000000018001d1f8     c5_motor_model_updated.obj
+ 0004:00000204       $pdata$mdlRTW_c5_motor_model_updated 000000018001d204     c5_motor_model_updated.obj
+ 0004:00000210       $pdata$mdlSetupRuntimeResources_c5_motor_model_updated 000000018001d210     c5_motor_model_updated.obj
+ 0004:0000021c       $pdata$sf_c6_motor_model_updated_get_eml_resolved_functions_info 000000018001d21c     c6_motor_model_updated.obj
+ 0004:00000228       $pdata$sf_c6_motor_model_updated_get_check_sum 000000018001d228     c6_motor_model_updated.obj
+ 0004:00000234       $pdata$c6_motor_model_updated_method_dispatcher 000000018001d234     c6_motor_model_updated.obj
+ 0004:00000240       $pdata$initialize_c6_motor_model_updated 000000018001d240     c6_motor_model_updated.obj
+ 0004:0000024c       $pdata$enable_c6_motor_model_updated 000000018001d24c     c6_motor_model_updated.obj
+ 0004:00000258       $pdata$disable_c6_motor_model_updated 000000018001d258     c6_motor_model_updated.obj
+ 0004:00000264       $pdata$c6_do_animation_call_c6_motor_model_updated 000000018001d264     c6_motor_model_updated.obj
+ 0004:00000270       $pdata$get_sim_state_c6_motor_model_updated 000000018001d270     c6_motor_model_updated.obj
+ 0004:0000027c       $pdata$set_sim_state_c6_motor_model_updated 000000018001d27c     c6_motor_model_updated.obj
+ 0004:00000288       $pdata$sf_gateway_c6_motor_model_updated 000000018001d288     c6_motor_model_updated.obj
+ 0004:00000294       $pdata$mdl_setup_runtime_resources_c6_motor_model_updated 000000018001d294     c6_motor_model_updated.obj
+ 0004:000002a0       $pdata$mdl_cleanup_runtime_resources_c6_motor_model_updated 000000018001d2a0     c6_motor_model_updated.obj
+ 0004:000002ac       $pdata$c6_emlrt_marshallIn 000000018001d2ac     c6_motor_model_updated.obj
+ 0004:000002b8       $pdata$c6_b_emlrt_marshallIn 000000018001d2b8     c6_motor_model_updated.obj
+ 0004:000002c4       $pdata$c6_c_emlrt_marshallIn 000000018001d2c4     c6_motor_model_updated.obj
+ 0004:000002d0       $pdata$c6_d_emlrt_marshallIn 000000018001d2d0     c6_motor_model_updated.obj
+ 0004:000002dc       $pdata$c6_chart_data_browse_helper 000000018001d2dc     c6_motor_model_updated.obj
+ 0004:000002e8       $pdata$init_simulink_io_address 000000018001d2e8     c6_motor_model_updated.obj
+ 0004:000002f4       $pdata$sf_c6_motor_model_updated_third_party_uses_info 000000018001d2f4     c6_motor_model_updated.obj
+ 0004:00000300       $pdata$sf_c6_motor_model_updated_jit_fallback_info 000000018001d300     c6_motor_model_updated.obj
+ 0004:0000030c       $pdata$sf_c6_motor_model_updated_updateBuildInfo_args_info 000000018001d30c     c6_motor_model_updated.obj
+ 0004:00000318       $pdata$sf_get_sim_state_info_c6_motor_model_updated 000000018001d318     c6_motor_model_updated.obj
+ 0004:00000324       $pdata$sf_opaque_initialize_c6_motor_model_updated 000000018001d324     c6_motor_model_updated.obj
+ 0004:00000330       $pdata$sf_opaque_enable_c6_motor_model_updated 000000018001d330     c6_motor_model_updated.obj
+ 0004:0000033c       $pdata$sf_opaque_disable_c6_motor_model_updated 000000018001d33c     c6_motor_model_updated.obj
+ 0004:00000348       $pdata$sf_opaque_gateway_c6_motor_model_updated 000000018001d348     c6_motor_model_updated.obj
+ 0004:00000354       $pdata$sf_opaque_get_sim_state_c6_motor_model_updated 000000018001d354     c6_motor_model_updated.obj
+ 0004:00000360       $pdata$sf_opaque_set_sim_state_c6_motor_model_updated 000000018001d360     c6_motor_model_updated.obj
+ 0004:0000036c       $pdata$sf_opaque_cleanup_runtime_resources_c6_motor_model_updated 000000018001d36c     c6_motor_model_updated.obj
+ 0004:00000378       $pdata$sf_opaque_mdl_start_c6_motor_model_updated 000000018001d378     c6_motor_model_updated.obj
+ 0004:00000384       $pdata$sf_opaque_mdl_terminate_c6_motor_model_updated 000000018001d384     c6_motor_model_updated.obj
+ 0004:00000390       $pdata$mdlProcessParameters_c6_motor_model_updated 000000018001d390     c6_motor_model_updated.obj
+ 0004:0000039c       $pdata$sf_c6_motor_model_updated_get_post_codegen_info 000000018001d39c     c6_motor_model_updated.obj
+ 0004:000003a8       $pdata$mdlSetWorkWidths_c6_motor_model_updated 000000018001d3a8     c6_motor_model_updated.obj
+ 0004:000003b4       $pdata$mdlRTW_c6_motor_model_updated 000000018001d3b4     c6_motor_model_updated.obj
+ 0004:000003c0       $pdata$mdlSetupRuntimeResources_c6_motor_model_updated 000000018001d3c0     c6_motor_model_updated.obj
+ 0004:000003cc       $pdata$mexFunction         000000018001d3cc     motor_model_updated_sfun_registry.obj
+ 0004:000003d8       $pdata$_ssSetInputPortDirectFeedThroughFcn 000000018001d3d8     motor_model_updated_sfun_registry.obj
+ 0004:000003e4       $pdata$_ssSetRWorkValueFcn 000000018001d3e4     motor_model_updated_sfun_registry.obj
+ 0004:000003f0       $pdata$_ssGetRWorkValueFcn 000000018001d3f0     motor_model_updated_sfun_registry.obj
+ 0004:000003fc       $pdata$_ssSetIWorkValueFcn 000000018001d3fc     motor_model_updated_sfun_registry.obj
+ 0004:00000408       $pdata$_ssGetIWorkValueFcn 000000018001d408     motor_model_updated_sfun_registry.obj
+ 0004:00000414       $pdata$_ssSetPWorkValueFcn 000000018001d414     motor_model_updated_sfun_registry.obj
+ 0004:00000420       $pdata$_ssGetPWorkValueFcn 000000018001d420     motor_model_updated_sfun_registry.obj
+ 0004:0000042c       $pdata$_ssGetInputPortSignalFcn 000000018001d42c     motor_model_updated_sfun_registry.obj
+ 0004:00000438       $pdata$_ssGetInputPortBufferDstPortFcn 000000018001d438     motor_model_updated_sfun_registry.obj
+ 0004:00000444       $pdata$_ssGetInputPortSignalPtrsFcn 000000018001d444     motor_model_updated_sfun_registry.obj
+ 0004:00000450       $pdata$ssGetParameterTuningCompliance 000000018001d450     motor_model_updated_sfun_registry.obj
+ 0004:0000045c       $pdata$ssGetDTypeIdFromMxArray 000000018001d45c     motor_model_updated_sfun_registry.obj
+ 0004:00000468       $pdata$ssWriteRTWMx2dMatParam 000000018001d468     motor_model_updated_sfun_registry.obj
+ 0004:00000474       $pdata$ssWriteRTWMxVectParam 000000018001d474     motor_model_updated_sfun_registry.obj
+ 0004:00000480       $pdata$ssWriteRTWParameters 000000018001d480     motor_model_updated_sfun_registry.obj
+ 0004:0000048c       $pdata$ssWriteRTWParamSettings 000000018001d48c     motor_model_updated_sfun_registry.obj
+ 0004:00000498       $pdata$ssWriteRTWStr       000000018001d498     motor_model_updated_sfun_registry.obj
+ 0004:000004a4       $pdata$ssWriteRTWWorkVect  000000018001d4a4     motor_model_updated_sfun_registry.obj
+ 0004:000004b0       $pdata$ssWarning           000000018001d4b0     motor_model_updated_sfun_registry.obj
+ 0004:000004bc       $pdata$ssWriteRTWNameValuePair 000000018001d4bc     motor_model_updated_sfun_registry.obj
+ 0004:000004c8       $pdata$_ssSetInputPortMatrixDimensions 000000018001d4c8     motor_model_updated_sfun_registry.obj
+ 0004:000004d4       $pdata$_ssSetOutputPortMatrixDimensions 000000018001d4d4     motor_model_updated_sfun_registry.obj
+ 0004:000004e0       $pdata$_ssSetInputPortVectorDimension 000000018001d4e0     motor_model_updated_sfun_registry.obj
+ 0004:000004ec       $pdata$_ssSetOutputPortVectorDimension 000000018001d4ec     motor_model_updated_sfun_registry.obj
+ 0004:000004f8       $pdata$ssIsRunTimeParamTunable 000000018001d4f8     motor_model_updated_sfun_registry.obj
+ 0004:00000504       $pdata$ssGetSFuncBlockHandle 000000018001d504     motor_model_updated_sfun_registry.obj
+ 0004:00000510       $pdata$_ssGetCurrentInputPortWidth 000000018001d510     motor_model_updated_sfun_registry.obj
+ 0004:0000051c       $pdata$_ssGetCurrentOutputPortWidth 000000018001d51c     motor_model_updated_sfun_registry.obj
+ 0004:00000528       $pdata$_ssGetCallSystemNumFcnCallDestinations 000000018001d528     motor_model_updated_sfun_registry.obj
+ 0004:00000534       $pdata$ssGetIsZeroCrossControlDisabled 000000018001d534     motor_model_updated_sfun_registry.obj
+ 0004:00000540       $pdata$ssSetIsInputPortUsedForContZcSignal 000000018001d540     motor_model_updated_sfun_registry.obj
+ 0004:0000054c       $pdata$ssSetZcSignalIsZcElementDisc 000000018001d54c     motor_model_updated_sfun_registry.obj
+ 0004:00000558       $pdata$ssSetZcSignalName   000000018001d558     motor_model_updated_sfun_registry.obj
+ 0004:00000564       $pdata$ssSetZcSignalWidth  000000018001d564     motor_model_updated_sfun_registry.obj
+ 0004:00000570       $pdata$ssSetZcSignalZcEventType 000000018001d570     motor_model_updated_sfun_registry.obj
+ 0004:0000057c       $pdata$ssSetZcSignalType   000000018001d57c     motor_model_updated_sfun_registry.obj
+ 0004:00000588       $pdata$ssSetZcSignalZcTol  000000018001d588     motor_model_updated_sfun_registry.obj
+ 0004:00000594       $pdata$ssSetZcSignalNeedsEventNotification 000000018001d594     motor_model_updated_sfun_registry.obj
+ 0004:000005a0       $pdata$ssCreateAndAddZcSignalInfo 000000018001d5a0     motor_model_updated_sfun_registry.obj
+ 0004:000005ac       $pdata$ssCloneAndAddZcSignalInfo 000000018001d5ac     motor_model_updated_sfun_registry.obj
+ 0004:000005b8       $pdata$ssGetNumZcSignals   000000018001d5b8     motor_model_updated_sfun_registry.obj
+ 0004:000005c4       $pdata$ssGetZcSignalVector 000000018001d5c4     motor_model_updated_sfun_registry.obj
+ 0004:000005d0       $pdata$ssGetZcSignalName   000000018001d5d0     motor_model_updated_sfun_registry.obj
+ 0004:000005dc       $pdata$ssGetZcSignalWidth  000000018001d5dc     motor_model_updated_sfun_registry.obj
+ 0004:000005e8       $pdata$ssGetZcSignalZcEventType 000000018001d5e8     motor_model_updated_sfun_registry.obj
+ 0004:000005f4       $pdata$ssGetZcSignalZcEvents 000000018001d5f4     motor_model_updated_sfun_registry.obj
+ 0004:00000600       $pdata$ssGetZcSignalType   000000018001d600     motor_model_updated_sfun_registry.obj
+ 0004:0000060c       $pdata$ssGetZcSignalZcTol  000000018001d60c     motor_model_updated_sfun_registry.obj
+ 0004:00000618       $pdata$ssGetZcSignalNeedsEventNotification 000000018001d618     motor_model_updated_sfun_registry.obj
+ 0004:00000624       $pdata$ssGetZcSignalIsZcElementDisc 000000018001d624     motor_model_updated_sfun_registry.obj
+ 0004:00000630       $pdata$ssGetIsInputPortElementContinuous 000000018001d630     motor_model_updated_sfun_registry.obj
+ 0004:0000063c       $pdata$_ssGetAbsTol        000000018001d63c     motor_model_updated_sfun_registry.obj
+ 0004:00000648       $pdata$_ssSetInputPortReusableFcn 000000018001d648     motor_model_updated_sfun_registry.obj
+ 0004:00000654       $pdata$_ssSetOutputPortReusableFcn 000000018001d654     motor_model_updated_sfun_registry.obj
+ 0004:00000660       $pdata$_ssSetSymbolicDimsSupport 000000018001d660     motor_model_updated_sfun_registry.obj
+ 0004:0000066c       $pdata$_ssRegisterSymbolicDimsExpr 000000018001d66c     motor_model_updated_sfun_registry.obj
+ 0004:00000678       $pdata$_ssRegisterSymbolicDims 000000018001d678     motor_model_updated_sfun_registry.obj
+ 0004:00000684       $pdata$_ssRegisterSymbolicDimsString 000000018001d684     motor_model_updated_sfun_registry.obj
+ 0004:00000690       $pdata$_ssRegisterSymbolicDimsIntValue 000000018001d690     motor_model_updated_sfun_registry.obj
+ 0004:0000069c       $pdata$_ssRegisterSymbolicDimsPlus 000000018001d69c     motor_model_updated_sfun_registry.obj
+ 0004:000006a8       $pdata$_ssRegisterSymbolicDimsMinus 000000018001d6a8     motor_model_updated_sfun_registry.obj
+ 0004:000006b4       $pdata$_ssRegisterSymbolicDimsMultiply 000000018001d6b4     motor_model_updated_sfun_registry.obj
+ 0004:000006c0       $pdata$_ssRegisterSymbolicDimsDivide 000000018001d6c0     motor_model_updated_sfun_registry.obj
+ 0004:000006cc       $pdata$_ssGetNumSymbolicDims 000000018001d6cc     motor_model_updated_sfun_registry.obj
+ 0004:000006d8       $pdata$_ssGetSymbolicDim   000000018001d6d8     motor_model_updated_sfun_registry.obj
+ 0004:000006e4       $pdata$_ssSetInputPortSymbolicDimsId 000000018001d6e4     motor_model_updated_sfun_registry.obj
+ 0004:000006f0       $pdata$_ssGetCompInputPortSymbolicDimsId 000000018001d6f0     motor_model_updated_sfun_registry.obj
+ 0004:000006fc       $pdata$_ssSetCompInputPortSymbolicDimsId 000000018001d6fc     motor_model_updated_sfun_registry.obj
+ 0004:00000708       $pdata$_ssSetOutputPortSymbolicDimsId 000000018001d708     motor_model_updated_sfun_registry.obj
+ 0004:00000714       $pdata$_ssGetCompOutputPortSymbolicDimsId 000000018001d714     motor_model_updated_sfun_registry.obj
+ 0004:00000720       $pdata$_ssSetCompOutputPortSymbolicDimsId 000000018001d720     motor_model_updated_sfun_registry.obj
+ 0004:0000072c       $pdata$_ssSetCompDWorkSymbolicDimsId 000000018001d72c     motor_model_updated_sfun_registry.obj
+ 0004:00000738       $pdata$sf_process_check_sum_call 000000018001d738     motor_model_updated_sfun_registry.obj
+ 0004:00000744       $pdata$sf_process_get_third_party_uses_info_call 000000018001d744     motor_model_updated_sfun_registry.obj
+ 0004:00000750       $pdata$sf_process_get_jit_fallback_info_call 000000018001d750     motor_model_updated_sfun_registry.obj
+ 0004:0000075c       $pdata$sf_process_get_post_codegen_info_call 000000018001d75c     motor_model_updated_sfun_registry.obj
+ 0004:00000768       $pdata$sf_process_get_updateBuildInfo_args_info_call 000000018001d768     motor_model_updated_sfun_registry.obj
+ 0004:00000774       $pdata$sf_process_get_eml_resolved_functions_info_call 000000018001d774     motor_model_updated_sfun_registry.obj
+ 0004:00000780       $pdata$sf_mex_unlock_call  000000018001d780     motor_model_updated_sfun_registry.obj
+ 0004:0000078c       $pdata$ProcessMexSfunctionCmdLineCall 000000018001d78c     motor_model_updated_sfun_registry.obj
+ 0004:00000798       $pdata$sf_machine_global_initializer_called 000000018001d798     motor_model_updated_sfun_registry.obj
+ 0004:000007a4       $pdata$sf_machine_global_method_dispatcher 000000018001d7a4     motor_model_updated_sfun_registry.obj
+ 0004:000007b0       $pdata$sf_machine_global_terminator 000000018001d7b0     motor_model_updated_sfun_registry.obj
+ 0004:000007bc       $pdata$sf_register_machine_exported_symbols 000000018001d7bc     motor_model_updated_sfun_registry.obj
+ 0004:000007c8       $pdata$sf_machine_global_initializer 000000018001d7c8     motor_model_updated_sfun_registry.obj
+ 0004:000007d4       $pdata$mdlGetSimState      000000018001d7d4     motor_model_updated_sfun_registry.obj
+ 0004:000007e0       $pdata$mdlSetSimState      000000018001d7e0     motor_model_updated_sfun_registry.obj
+ 0004:000007ec       $pdata$mdlSetWorkWidths    000000018001d7ec     motor_model_updated_sfun_registry.obj
+ 0004:000007f8       $pdata$mdlProcessParameters 000000018001d7f8     motor_model_updated_sfun_registry.obj
+ 0004:00000804       $pdata$mdl_setup_runtime_resources_processing 000000018001d804     motor_model_updated_sfun_registry.obj
+ 0004:00000810       $pdata$mdlSetupRuntimeResources 000000018001d810     motor_model_updated_sfun_registry.obj
+ 0004:0000081c       $pdata$mdl_cleanup_runtime_resources_processing 000000018001d81c     motor_model_updated_sfun_registry.obj
+ 0004:00000828       $pdata$mdlCleanupRuntimeResources 000000018001d828     motor_model_updated_sfun_registry.obj
+ 0004:00000834       $pdata$mdl_start_processing 000000018001d834     motor_model_updated_sfun_registry.obj
+ 0004:00000840       $pdata$mdlStart            000000018001d840     motor_model_updated_sfun_registry.obj
+ 0004:0000084c       $pdata$mdl_terminate_processing 000000018001d84c     motor_model_updated_sfun_registry.obj
+ 0004:00000858       $pdata$mdlTerminate        000000018001d858     motor_model_updated_sfun_registry.obj
+ 0004:00000864       $pdata$mdlInitializeSizes  000000018001d864     motor_model_updated_sfun_registry.obj
+ 0004:00000870       $pdata$mdlInitializeSampleTimes 000000018001d870     motor_model_updated_sfun_registry.obj
+ 0004:0000087c       $pdata$mdl_outputs_continuous_legacy 000000018001d87c     motor_model_updated_sfun_registry.obj
+ 0004:00000888       $pdata$mdl_outputs_processing 000000018001d888     motor_model_updated_sfun_registry.obj
+ 0004:00000894       $pdata$mdl_zeroCrossings_processing 000000018001d894     motor_model_updated_sfun_registry.obj
+ 0004:000008a0       $pdata$mdlZeroCrossings    000000018001d8a0     motor_model_updated_sfun_registry.obj
+ 0004:000008ac       $pdata$mdl_derivatives_processing 000000018001d8ac     motor_model_updated_sfun_registry.obj
+ 0004:000008b8       $pdata$mdlDerivatives      000000018001d8b8     motor_model_updated_sfun_registry.obj
+ 0004:000008c4       $pdata$mdl_initialize_conditions_processing 000000018001d8c4     motor_model_updated_sfun_registry.obj
+ 0004:000008d0       $pdata$mdlInitializeConditions 000000018001d8d0     motor_model_updated_sfun_registry.obj
+ 0004:000008dc       $pdata$mdl_ext_mode_exec_processing 000000018001d8dc     motor_model_updated_sfun_registry.obj
+ 0004:000008e8       $pdata$mdlExtModeExec      000000018001d8e8     motor_model_updated_sfun_registry.obj
+ 0004:000008f4       $pdata$mdlRTW              000000018001d8f4     motor_model_updated_sfun_registry.obj
+ 0004:00000900       $pdata$mdl_enable_processing 000000018001d900     motor_model_updated_sfun_registry.obj
+ 0004:0000090c       $pdata$mdlEnable           000000018001d90c     motor_model_updated_sfun_registry.obj
+ 0004:00000918       $pdata$mdl_disable_processing 000000018001d918     motor_model_updated_sfun_registry.obj
+ 0004:00000924       $pdata$mdlDisable          000000018001d924     motor_model_updated_sfun_registry.obj
+ 0004:00000930       $pdata$mdlOutputs          000000018001d930     motor_model_updated_sfun_registry.obj
+ 0004:0000093c       $pdata$mdl_update_processing 000000018001d93c     motor_model_updated_sfun_registry.obj
+ 0004:00000948       $pdata$mdlUpdate           000000018001d948     motor_model_updated_sfun_registry.obj
+ 0004:00000954       $pdata$ProcessMexSfunctionEveryCall 000000018001d954     motor_model_updated_sfun_registry.obj
+ 0004:00000960       $pdata$_RegNumInputPortsCB 000000018001d960     motor_model_updated_sfun_registry.obj
+ 0004:0000096c       $pdata$_RegNumOutputPortsCB 000000018001d96c     motor_model_updated_sfun_registry.obj
+ 0004:00000978       $pdata$_CreateSimStruct    000000018001d978     motor_model_updated_sfun_registry.obj
+ 0004:00000984       $pdata$_ProcessMexSfunctionCmdLineCall 000000018001d984     motor_model_updated_sfun_registry.obj
+ 0004:00000990       $pdata$ReportIndexOutOfBoundsError 000000018001d990     motor_model_updated_sfun_registry.obj
+ 0004:0000099c       $pdata$_vsnprintf_l        000000018001d99c     motor_model_updated_sfun_registry.obj
+ 0004:000009a8       $pdata$_vsprintf_l         000000018001d9a8     motor_model_updated_sfun_registry.obj
+ 0004:000009b4       $pdata$sprintf             000000018001d9b4     motor_model_updated_sfun_registry.obj
+ 0004:000009c0       $pdata$__raise_securityfailure 000000018001d9c0     MSVCRT:gs_report.obj
+ 0004:000009cc       $pdata$__report_gsfailure  000000018001d9cc     MSVCRT:gs_report.obj
+ 0004:000009d8       $pdata$__report_rangecheckfailure 000000018001d9d8     MSVCRT:gs_report.obj
+ 0004:000009e4       $pdata$__report_securityfailure 000000018001d9e4     MSVCRT:gs_report.obj
+ 0004:000009f0       $pdata$__report_securityfailureEx 000000018001d9f0     MSVCRT:gs_report.obj
+ 0004:000009fc       $pdata$capture_current_context 000000018001d9fc     MSVCRT:gs_report.obj
+ 0004:00000a08       $pdata$capture_previous_context 000000018001da08     MSVCRT:gs_report.obj
+ 0004:00000a14       $pdata$__GSHandlerCheck    000000018001da14     MSVCRT:gshandler.obj
+ 0004:00000a20       $pdata$__GSHandlerCheckCommon 000000018001da20     MSVCRT:gshandler.obj
+ 0004:00000a38       $pdata$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018001da38     MSVCRT:dll_dllmain.obj
+ 0004:00000a44       $pdata$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018001da44     MSVCRT:dll_dllmain.obj
+ 0004:00000a50       $pdata$?dllmain_crt_process_detach@@YAH_N@Z 000000018001da50     MSVCRT:dll_dllmain.obj
+ 0004:00000a5c       $pdata$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018001da5c     MSVCRT:dll_dllmain.obj
+ 0004:00000a68       $pdata$_DllMainCRTStartup  000000018001da68     MSVCRT:dll_dllmain.obj
+ 0004:00000a74       $pdata$__get_entropy       000000018001da74     MSVCRT:gs_support.obj
+ 0004:00000a80       $pdata$__security_init_cookie 000000018001da80     MSVCRT:gs_support.obj
+ 0004:00000a8c       $pdata$DllMain             000000018001da8c     MSVCRT:dll_dllmain_stub.obj
+ 0004:00000a98       $pdata$__scrt_initialize_default_local_stdio_options 000000018001da98     MSVCRT:default_local_stdio_options.obj
+ 0004:00000aa4       $pdata$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000018001daa4     MSVCRT:utility.obj
+ 0004:00000ab0       $pdata$__scrt_acquire_startup_lock 000000018001dab0     MSVCRT:utility.obj
+ 0004:00000abc       $pdata$__scrt_dllmain_after_initialize_c 000000018001dabc     MSVCRT:utility.obj
+ 0004:00000ac8       $pdata$__scrt_dllmain_before_initialize_c 000000018001dac8     MSVCRT:utility.obj
+ 0004:00000ad4       $pdata$__scrt_dllmain_crt_thread_attach 000000018001dad4     MSVCRT:utility.obj
+ 0004:00000ae0       $pdata$__scrt_dllmain_crt_thread_detach 000000018001dae0     MSVCRT:utility.obj
+ 0004:00000aec       $pdata$__scrt_dllmain_exception_filter 000000018001daec     MSVCRT:utility.obj
+ 0004:00000af8       $pdata$__scrt_dllmain_uninitialize_c 000000018001daf8     MSVCRT:utility.obj
+ 0004:00000b04       $pdata$__scrt_dllmain_uninitialize_critical 000000018001db04     MSVCRT:utility.obj
+ 0004:00000b10       $pdata$__scrt_initialize_crt 000000018001db10     MSVCRT:utility.obj
+ 0004:00000b1c       $pdata$__scrt_initialize_onexit_tables 000000018001db1c     MSVCRT:utility.obj
+ 0004:00000b28       $pdata$__scrt_is_nonwritable_in_current_image 000000018001db28     MSVCRT:utility.obj
+ 0004:00000b34       $pdata$__scrt_release_startup_lock 000000018001db34     MSVCRT:utility.obj
+ 0004:00000b40       $pdata$__scrt_uninitialize_crt 000000018001db40     MSVCRT:utility.obj
+ 0004:00000b4c       $pdata$_onexit             000000018001db4c     MSVCRT:utility.obj
+ 0004:00000b58       $pdata$atexit              000000018001db58     MSVCRT:utility.obj
+ 0004:00000b64       $pdata$__scrt_fastfail     000000018001db64     MSVCRT:utility_desktop.obj
+ 0004:00000b70       $pdata$__scrt_get_show_window_mode 000000018001db70     MSVCRT:utility_desktop.obj
+ 0004:00000b7c       $pdata$__scrt_is_managed_app 000000018001db7c     MSVCRT:utility_desktop.obj
+ 0004:00000b88       $pdata$__scrt_unhandled_exception_filter 000000018001db88     MSVCRT:utility_desktop.obj
+ 0004:00000b94       $pdata$_RTC_Initialize     000000018001db94     MSVCRT:initsect.obj
+ 0004:00000ba0       $pdata$_RTC_Terminate      000000018001dba0     MSVCRT:initsect.obj
+ 0004:00000bac       $pdata$__isa_available_init 000000018001dbac     MSVCRT:cpu_disp.obj
+ 0004:00000bc4       $pdata$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018001dbc4     MSVCRT:dll_dllmain.obj
+ 0004:00000bd0       $pdata$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018001dbd0     MSVCRT:dll_dllmain.obj
+ 0004:00000bdc       $pdata$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018001dbdc     MSVCRT:dll_dllmain.obj
+ 0004:00000be8       $pdata$__scrt_is_nonwritable_in_current_image$filt$0 000000018001dbe8     MSVCRT:utility.obj
